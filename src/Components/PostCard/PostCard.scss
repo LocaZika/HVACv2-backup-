@@ -1,0 +1,87 @@
+.home .post-card{
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  &__pic{
+    position: relative;
+    ul{
+      position: absolute;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 8px 20px 10px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      li{
+        display: inline-block;
+        position: relative;
+        font-size: 13px;
+        color: #ffffff;
+        margin-right: 22px;
+        &::after{
+          content: "";
+          position: absolute;
+          right: -14px;
+          top: 1px;
+          height: 17px;
+          width: 1px;
+          background: #ffffff;
+        }
+        &:last-child{
+          &::after{
+            top: 0;
+            right: 0;
+            height: 0;
+            width: 0;
+          }
+        }
+      }
+    }
+  }
+  &__text{
+    padding-top: 25px;
+    h5{
+      font-size: 20px;
+      color: #323232;
+      font-weight: 700;
+      line-height: 28px;
+      margin-bottom: 14px;
+    }
+    p{
+      color: #8d8d8d;
+      margin-bottom: 20px;
+    }
+    a{
+      font-size: 15px;
+      color: #8d8d8d;
+      font-weight: 700;
+    }
+    svg{
+      margin-left: 6px;
+    }
+  }
+  &.no-preview {
+    .post-card{
+      &__pic{
+        display: block;
+        &__info{
+          position: absolute;
+          padding: 25px 20px 20px;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100%;
+          h6 {
+            font-size: 15px;
+            color: #ffffff;
+            font-weight: 700;
+            margin-bottom: 26px;
+          }
+          ul {
+            position: relative;
+            background-color: transparent;
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}

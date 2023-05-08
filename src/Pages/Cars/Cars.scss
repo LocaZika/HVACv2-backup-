@@ -1,0 +1,22 @@
+.cars{
+  padding-bottom: 120px;
+  h5{
+    font-size: 20px;
+    color: #353535;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  & &__sidebar{
+    background-color: #f7f7f7;
+    padding: 30px;
+    text-transform: capitalize;
+    &__search{
+      margin-bottom: 40px;
+    }
+  }
+  & &__sort{
+    margin-bottom: 30px;
+    padding: 12px 30px;
+    background-color: #f7f7f7;
+  }
+}
