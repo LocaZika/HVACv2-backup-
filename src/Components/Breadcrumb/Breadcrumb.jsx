@@ -2,7 +2,6 @@ import { Grid, Typography, Breadcrumbs, Container } from '@mui/material';
 import { Home, NavigateNext } from '@mui/icons-material'
 import './Breadcrumb.scss';
 import { Link } from 'react-router-dom';
-import { Fragment } from 'react';
 
 export default function Breadcrumb({currentPath}) {
   const breadcrumb = [

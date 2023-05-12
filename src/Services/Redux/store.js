@@ -3,6 +3,7 @@ import { cartSlice } from "Pages";
 import { authSlice } from "Middlewares/authSlice";
 import { formHeroSlice } from "Pages";
 import { searchFormSlice } from "Components";
+import { carsSlice } from "./carsSlice";
 
 export const store = configureStore({
   reducer: {
@@ -10,6 +11,6 @@ export const store = configureStore({
     cart: cartSlice.reducer,
     formHero: formHeroSlice.reducer,
     searchForm: searchFormSlice.reducer,
-    // sliderRange: slider
+    cars: carsSlice.reducer,
   },
 });

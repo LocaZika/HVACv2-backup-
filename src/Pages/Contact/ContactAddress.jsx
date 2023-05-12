@@ -25,7 +25,7 @@ export default function ContactAddress() {
       <Grid container padding={'100px 0 70px 0'}>
         {
           address.map(({name, address, email, tel}, index) => (
-            <Grid key={index} xs={12} md={6} lg={4}>
+            <Grid key={index} item xs={12} md={6} lg={4}>
               <div className="contact__address-item">
                 <h4>{name}</h4>
                 <p>

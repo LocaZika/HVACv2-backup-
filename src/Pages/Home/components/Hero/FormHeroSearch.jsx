@@ -25,8 +25,8 @@ export default function FormHeroSearch() {
       <Grid container className="hero__tab-panel__form">
         <Grid
           item
-          className="hero__tab-panel__form--listitem"
           container
+          sx={{padding: 0}}
         >
           <SelectForm select={heroSearch} submitText="Search" />
         </Grid>

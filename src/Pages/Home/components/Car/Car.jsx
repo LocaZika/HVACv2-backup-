@@ -66,10 +66,10 @@ export default function Car() {
         </Grid>
         <Grid container >
           <TabPanel value={activeTab} index={0}>
-            <ProductCard products={products} limit={4} />
+            <ProductCard products={products} limit={4} xs={12} md={4} lg={3} />
           </TabPanel>
           <TabPanel value={activeTab} index={1}>
-            <ProductCard products={saleProducts} limit={4} />
+            <ProductCard products={saleProducts} limit={4} xs={12} md={4} lg={3} />
           </TabPanel>
         </Grid>
       </Container>

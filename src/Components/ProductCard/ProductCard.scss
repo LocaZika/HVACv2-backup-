@@ -1,9 +1,11 @@
-.home .product-card{
+#root .product-card{
   padding: 15px;
   &__title{
     color: #353535;
     font-weight: 700;
     text-decoration: none;
+    height: 60px;
+    font-size: 18px;
   }
   ul.product-card__info{
     display: flex;
@@ -49,7 +51,8 @@
       color: #ffffff;
       font-weight: 700;
       padding: 12px 0;
-      width: 100%;
+      // width: 100%;
+      flex: 0 0 40%;
       border-radius: 2px 0 0 2px;
       text-transform: capitalize;
       background-color: #4971FF;

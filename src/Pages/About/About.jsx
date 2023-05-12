@@ -1,7 +1,17 @@
-import React from 'react'
+import './About.scss';
+import { Breadcrumb } from 'Components';
+import { AboutUs, Call, Client, Counter, Team, Testimonial } from './Components';
 
 export default function About() {
   return (
-    <div>About</div>
+    <>
+      <Breadcrumb currentPath={'about us'} />
+      <AboutUs />
+      <Call />
+      <Team />
+      <Testimonial />
+      <Counter />
+      <Client />
+    </>
   )
 }

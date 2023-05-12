@@ -1,4 +1,4 @@
-header{
+#root header{
   a{
     color: #353535;
     font-size: 15px;
@@ -34,7 +34,7 @@ header{
   }
 }
 .header__mobile{
-  &__logo {
+  & &__logo {
     padding: 35px 0;
   }
   &__drawer {

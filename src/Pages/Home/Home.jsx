@@ -4,7 +4,7 @@ import { Car, ChooseUs, Cta, Feature, Hero, Latest, Service } from './components
 
 export default function Home() {
   return (
-    <Grid className='home'>
+    <Grid className='home' sx={{padding: 0}}>
       <Hero />
       <Service />
       <Feature />

@@ -1,40 +1,9 @@
 const host = import.meta.env.VITE_HOST;
 export default function useFetch(path) {
-  
-  /**
-   * 
-   * @param {string} method Set method to call api. UPPERCASE required
-   * @param {{id?: string, data: string | object}} dataObj Set data object
-   * @param {{
-   *  mode: 'search' | 'sort' | 'filter' | 'paginate',
-   *  search: string,
-   *  sort: {sortValue: string, sortOrder: 'asc'|'des'},
-   *  filter: string,
-   *  paginate: {page: number, limit: number}
-   * }} optional Set optional for GET api. Default is empty object
-   * @returns Promise
-   */
-  const send = async(method, dataObj, optional) => {
+  const send = async(method, extraUrl, data) => {
     let responsive = {};
-    const defData = dataObj ?? null;
-    const defOpt = optional ?? {};
-    const mode = defOpt.mode ?? '';
-    let defExUrl = '';
-    if (mode === 'search'){
-      const keyword = defOpt.search ?? '';
-      defExUrl = `?q=${keyword}`;
-    }
-    if (mode === 'sort'){
-      const {sortValue, sortOrder} = defOpt.sort ?? { sortValue: '', sortOrder: 'asc' };
-      defExUrl = `?_sort=${sortValue}&_order=${sortOrder}`;
-    }
-    if (mode === 'paginate'){
-      const {page, limit} = defOpt.paginate ?? { page: 1, limit: 10 };
-      defExUrl = `?_page=${page}&_limit=${limit}`;
-    }
-    if (mode === 'filter'){
-      defExUrl = `?${defOpt.filter}`;
-    }
+    const defData = data ?? null;
+    const defExUrl = extraUrl ?? '';
     let initFetch = {
       method,
       'content-type': 'application/json',
