@@ -3,9 +3,9 @@ import './Pagination.scss';
 import { useEffect, useState } from "react";
 
 
-export default function Pagination({setPage}) {
+export default function Pagination({setPage, totalPages}) {
   const [currentPage, setCurrentPage] = useState(1);
-  const { items } = usePagination({count: 10});
+  const { items } = usePagination({count: totalPages});
   const handleClickPagination = (page) => {
     setCurrentPage(page);
   };

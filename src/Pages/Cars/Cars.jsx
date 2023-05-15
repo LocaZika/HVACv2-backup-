@@ -5,37 +5,42 @@ import FormCarFilter from './Components/FormCarFilter';
 import CarSort from './Components/CarSort';
 import { ProductCard } from 'Components';
 import { useFetch } from 'Services/Hooks';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function Cars() {
-  const [url, setUrl] = useState('');
+  const [extraOpt, setExtraOpt] = useState({
+    sort: 'price',
+    page: 1,
+    order: 'desc',
+    limit: 9,
+    totalPages: 0,
+  });
   const [carList, setCarList] = useState([]);
-  const fetcher = useFetch('cars');
-  const handleUrlOptions = (quantity, sortOption) => {
-    let urlOpt = '?'
-    quantity !== 9 ? urlOpt += `&_limit=${quantity}` : urlOpt += '&_limit=9';
-    sortOption !== 'desc' ? urlOpt += `&_sort=price&_order=${sortOption}` : urlOpt += '&_sort=price&_order=desc';
-    console.log(urlOpt);
-    setUrl(urlOpt);
+  const api = useFetch('cars');
+  const handleSortOptions = (limit, sortOption) => {
+    setExtraOpt({
+      ...extraOpt,
+      order: sortOption,
+      limit: limit,
+    });
   }
   const handleClickPagination = (page) => {
-    let urlOpt = '';
-    url.includes('?') === true ? urlOpt = url + `&_page=${page}` : urlOpt += `?_page=${page}`;
-    setUrl(urlOpt);
+    setExtraOpt({
+      ...extraOpt,
+      page: page,
+    })
   };
   useEffect(() => {
-    fetcher('GET', url).then(({data}) => {
+    api.get(extraOpt).then(({res, data}) => {
+      setExtraOpt({
+        ...extraOpt,
+        totalPages: Math.round(res.headers.get('X-Total-Count') / extraOpt.limit)
+      });
       setCarList(data);
     });
   }, []);
-  const fetchData = useMemo(() => {
-    fetcher('GET', url).then(({data}) => {
-      setCarList(data);
-    });
-  }, [url]);
   return (
     <>
-      {fetchData}
       <Breadcrumb currentPath={'car listing'} />
       <Box component={'section'} className='cars spad'>
         <Container fixed>
@@ -54,13 +59,13 @@ export default function Cars() {
             </Grid>
             <Grid item xs={12} lg={9} paddingX={'15px'}>
               <Grid container className='cars-sort'>
-                <CarSort setSort={handleUrlOptions} />
+                <CarSort setSort={handleSortOptions} />
               </Grid>
               <Grid container className='cars-list'>
                 <ProductCard products={carList} lg={4} />
               </Grid>
               <Grid container className='cars-pagination'>
-                <Pagination setPage={handleClickPagination}  />
+                <Pagination totalPage={extraOpt.totalPages} setPage={handleClickPagination}  />
               </Grid>
             </Grid>
           </Grid>

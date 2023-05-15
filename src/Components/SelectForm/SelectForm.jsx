@@ -3,7 +3,6 @@ import { Fragment, useState } from 'react';
 import './SelectForm.scss';
 import { Box, FormControl,Button, Grid } from '@mui/material';
 import SelectFormItem from './SelectFormItem';
-import { useFetch } from 'Services/Hooks';
 import { selectFormSlice } from './selectFormSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { sliderState } from 'Components/SliderRange/sliderSlice';
@@ -25,9 +24,8 @@ import SliderRange from 'Components/SliderRange/SliderRange';
  * 
  * @returns Component
  */
-export default function SelectForm({select, submitText, titleInside, path, column}) {
+export default function SelectForm({select, submitText, titleInside, column}) {
   const [filterUrl, setFilterUrl] = useState('');
-  const fetch = useFetch(path);
   const sliderValue = useSelector(sliderState);
   const dispath = useDispatch();
   const { result } = selectFormSlice.actions;

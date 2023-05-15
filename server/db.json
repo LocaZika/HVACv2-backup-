@@ -114,6 +114,234 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
       ]
+    },
+    {
+      "id": 7,
+      "name": "mercedes g63",
+      "brand": "mercedes-benz",
+      "price": 1400,
+      "gearboxType": "auto",
+      "seats": "2",
+      "model": "q3",
+      "bodyStyle": "sedan",
+      "transmission": "PDK",
+      "horsePower": 700,
+      "mpg": 3500,
+      "yearOfManufacture": 2016,
+      "status": "sale",
+      "images": [
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-1.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "lamborghini aventardo a90",
+      "brand": "lamborghini",
+      "price": 422,
+      "gearboxType": "auto",
+      "seats": "4-5",
+      "model": "a3",
+      "bodyStyle": "couple",
+      "transmission": "tiptronic",
+      "horsePower": 700,
+      "mpg": 3500,
+      "yearOfManufacture": 2020,
+      "status": "rent",
+      "images": [
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-1.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "porsche cayenne turbo s",
+      "brand": "porsche",
+      "price": 730900,
+      "gearboxType": "auto",
+      "seats": "2",
+      "model": "a3",
+      "bodyStyle": "SUV",
+      "transmission": "aventador",
+      "horsePower": 700,
+      "mpg": 3500,
+      "yearOfManufacture": 2017,
+      "status": "sale",
+      "images": [
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-1.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Bmw s1000rr 2019 m",
+      "brand": "BMW",
+      "price": 736500,
+      "gearboxType": "auto",
+      "horsePower": 700,
+      "mpg": 3500,
+      "yearOfManufacture": 2017,
+      "status": "sale",
+      "images": [
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-1.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Lamborghini huracan evo",
+      "brand": "lamborghini",
+      "price": 730900,
+      "gearboxType": "auto",
+      "horsePower": 700,
+      "mpg": 3500,
+      "yearOfManufacture": 2017,
+      "status": "rent",
+      "images": [
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-1.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Mustang shelby gt500",
+      "brand": "ford",
+      "price": 6500,
+      "gearboxType": "auto",
+      "horsePower": 700,
+      "mpg": 3500,
+      "yearOfManufacture": 2017,
+      "status": "rent",
+      "images": [
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-1.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "mercedes g63",
+      "brand": "mercedes-benz",
+      "price": 1400,
+      "gearboxType": "auto",
+      "seats": "2",
+      "model": "q3",
+      "bodyStyle": "sedan",
+      "transmission": "PDK",
+      "horsePower": 700,
+      "mpg": 3500,
+      "yearOfManufacture": 2016,
+      "status": "sale",
+      "images": [
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-1.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "lamborghini aventardo a90",
+      "brand": "lamborghini",
+      "price": 422,
+      "gearboxType": "auto",
+      "seats": "4-5",
+      "model": "a3",
+      "bodyStyle": "couple",
+      "transmission": "tiptronic",
+      "horsePower": 700,
+      "mpg": 3500,
+      "yearOfManufacture": 2020,
+      "status": "rent",
+      "images": [
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-1.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "porsche cayenne turbo s",
+      "brand": "porsche",
+      "price": 730900,
+      "gearboxType": "auto",
+      "seats": "2",
+      "model": "a3",
+      "bodyStyle": "SUV",
+      "transmission": "aventador",
+      "horsePower": 700,
+      "mpg": 3500,
+      "yearOfManufacture": 2017,
+      "status": "sale",
+      "images": [
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-1.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Bmw s1000rr 2019 m",
+      "brand": "BMW",
+      "price": 736500,
+      "gearboxType": "auto",
+      "horsePower": 700,
+      "mpg": 3500,
+      "yearOfManufacture": 2017,
+      "status": "sale",
+      "images": [
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-1.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Lamborghini huracan evo",
+      "brand": "lamborghini",
+      "price": 730900,
+      "gearboxType": "auto",
+      "horsePower": 700,
+      "mpg": 3500,
+      "yearOfManufacture": 2017,
+      "status": "rent",
+      "images": [
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-1.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Mustang shelby gt500",
+      "brand": "ford",
+      "price": 6500,
+      "gearboxType": "auto",
+      "horsePower": 700,
+      "mpg": 3500,
+      "yearOfManufacture": 2017,
+      "status": "rent",
+      "images": [
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-1.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
+      ]
     }
   ],
   "blogs": [],
@@ -129,7 +357,26 @@
       "hero": {
         "title": "find your dream car",
         "hotSale": {"name":"porsche cayenne turbo s", "model": "2019", "price": "399", "status": "rent"},
-        "image": "https://preview.colorlib.com/theme/hvac/img/hero-bg.jpg"
+        "imageBg": "https://preview.colorlib.com/theme/hvac/img/hero-bg.jpg",
+        "imageLink": "https://preview.colorlib.com/theme/hvac/img/wheel.png",
+        "items": [
+          {
+            "title": "year",
+            "values": [2020, 2019, 2018, 2017, 2016, 2015]
+          },
+          {
+            "title": "brand",
+            "values":["audi", "lamborghini", "bugatti", "BWM"]
+          },
+          {
+            "title": "model",
+            "values": ["q3", "q4", "aventador"]
+          },
+          {
+            "title": "miles",
+            "values": [27, 25, 15, 10]
+          }
+        ]
       },
       "services":{
         "title": "what we offers",

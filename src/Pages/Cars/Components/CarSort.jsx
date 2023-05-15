@@ -2,24 +2,24 @@ import { Grid, Box, Select, MenuItem } from '@mui/material';
 import { useEffect, useState } from 'react';
 
 export default function CarSort({setSort}) {
-  const [quantity, setQuantity] = useState('9');
+  const [limit, setlimit] = useState('9');
   const [sortByPrice, setSortByPrice] = useState('desc');
-  const handleQuantity = (e) => {
-    setQuantity(e.target.value);
+  const handleLimit = (e) => {
+    setlimit(e.target.value);
   };
   const handleSortByPrice = (e) => {
     setSortByPrice(e.target.value);
   };
   useEffect(() => {
-    setSort(quantity, sortByPrice);
-  }, [quantity, sortByPrice])
+    setSort(limit, sortByPrice);
+  }, [])
   return (
     <Grid container justifyContent={'space-between'} className="cars-sort__option" >
       <Grid item md={6} lg={6} className="cars-sort__option--quantity" >
         <Box component={'h6'}>show on page:</Box>
         <Select
-          value={quantity}
-          onChange={handleQuantity}
+          value={limit}
+          onChange={handleLimit}
         >
           <MenuItem value={9}>9 cars</MenuItem>
           <MenuItem value={15}>15 cars</MenuItem>

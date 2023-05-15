@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "server": "cd server && json-server db.json --w --p 2207"
+    "server": "cd server && json-server db.json --w --p 2207 --routes routes.json"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",

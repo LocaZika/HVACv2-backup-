@@ -4,14 +4,17 @@ import { Box, Container, Grid, Link, Tab, useMediaQuery } from "@mui/material";
 import { useState } from "react";
 import FormHeroSearch from "./FormHeroSearch";
 
-export default function Hero() {
+export default function Hero({db}) {
   const [tab, setTab] = useState('1');
   const breakpointFix = useMediaQuery(theme => (
     theme.breakpoints.down('lg')
   ));
+  const { items, title, hotSale, imageBg, imageLink } = db;
   const handleChangeTab = (e, newTab) => setTab(newTab);
   return (
-     <Box component={'section'} className="hero set-bg">
+     <Box component={'section'} className="hero set-bg" sx={{
+      backgroundImage: `url(${imageBg})`,
+     }}>
         <Container fixed>
           <Grid container>
             <Grid item xs={12} md={12} lg={7} sx={
@@ -31,11 +34,11 @@ export default function Hero() {
                   <Box component={'span'} sx={{
                     fontSize: '20px',
                     textTransform: 'uppercase',
-                  }}>find your dream car</Box>
+                  }}>{title}</Box>
                   <Box sx={{
                     fontSize: '60px',
                     marginTop: '10px',
-                  }}>Porsche Cayenne S</Box>
+                  }}>{hotSale.name}</Box>
                 </Box>
               </Box>
               {/* Price */}
@@ -57,7 +60,7 @@ export default function Hero() {
                   top: 0,
                   left: 0,
                 }}>
-                  model 2019
+                  model {hotSale.model}
                 </Box>
                 <Box component={'h2'} sx={{
                   fontSize: '50px',
@@ -65,16 +68,20 @@ export default function Hero() {
                   fontWeight: 700,
                   lineHeight: '45px',
                 }}>
-                  $399
-                  <Box component={'span'} sx={{
-                    fontSize: '42px',
-                    textTransform: 'capitalize',
-                  }}>/month</Box>
+                  {hotSale.price}
+                  {
+                    hotSale.status === 'rent' ? (
+                      <Box component={'span'} sx={{
+                        fontSize: '42px',
+                        textTransform: 'capitalize',
+                      }}>/month</Box>
+                    ) : null
+                  }
                 </Box>
               </Box>
               {/* Links */}
               <Link href="#" className="hero__link">
-                <img src="https://preview.colorlib.com/theme/hvac/img/wheel.png" alt="wheel icon" />
+                <img src={imageLink} alt="wheel icon" />
                 test driver
               </Link>
               <Link href="#" className="hero__link" sx={{
@@ -95,13 +102,13 @@ export default function Hero() {
                     <Box component={'h2'}>
                       find your dream car
                     </Box>
-                    <FormHeroSearch />
+                    <FormHeroSearch select={items} />
                   </TabPanel>
                   <TabPanel value='2' className="hero__tab-panel">
                     <Box component={'h2'}>
                       buy your dream car
                     </Box>
-                    <FormHeroSearch />
+                    <FormHeroSearch select={items} />
                   </TabPanel>
                 </TabContext>
               </Box>

@@ -15,7 +15,7 @@ export default function SearchForm({path}) {
   });
   const dispatch = useDispatch();
   const {result} = searchFormSlice.actions;
-  const fetch = useFetch(path);
+  const api = useFetch(path);
   const handleChange = debounce((e) => setSearch({
     ...search, keyword: e.target.value
   }), 300);
@@ -25,7 +25,7 @@ export default function SearchForm({path}) {
       setSearch({...search, isEmpty: true})
     }else{
       const keyword = search.keyword.toLowerCase();
-      fetch('GET',{mode: 'search', search: keyword}).then(({data}) => dispatch(result(data)));
+      api.get('GET',{search: keyword}).then(({data}) => dispatch(result(data)));
       setSearch({isEmpty: false, keyword: ''});
     }
   }

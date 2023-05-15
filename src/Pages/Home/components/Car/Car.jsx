@@ -36,10 +36,10 @@ TabPanel.propTypes = {
 export default function Car() {
   const [activeTab, setActiveTab] = useState(0);
   const [products, setProducts] = useState([]);
-  const fetch = useFetch('cars');
+  const api = useFetch('cars');
   // let products = [];
   useEffect(() => {
-    fetch('GET', null).then(({data}) => setProducts(data));
+    api.get({limit: 4}).then(({data}) => setProducts(data));
   }, []);
   const handleChangeTab = (e, newvalue) => {
     setActiveTab(newvalue);
@@ -66,10 +66,10 @@ export default function Car() {
         </Grid>
         <Grid container >
           <TabPanel value={activeTab} index={0}>
-            <ProductCard products={products} limit={4} xs={12} md={4} lg={3} />
+            <ProductCard products={products} xs={12} md={4} lg={3} />
           </TabPanel>
           <TabPanel value={activeTab} index={1}>
-            <ProductCard products={saleProducts} limit={4} xs={12} md={4} lg={3} />
+            <ProductCard products={saleProducts} xs={12} md={4} lg={3} />
           </TabPanel>
         </Grid>
       </Container>

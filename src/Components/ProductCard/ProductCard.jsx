@@ -8,24 +8,19 @@ import { useMemo } from 'react';
 /**
  * 
  * Create Product cards
- * @prop {array} product Set product array 
- * @prop {number | optional?} limit Set product limit want to display. Default is product length
+ * @prop {array} product Set product array
  * @returns Product cards component
  */
 export default function ProductCard(props) {
   const breakpointFix = useMediaQuery(theme => theme.breakpoints.down('md'));
-  const { products, limit, xs, md, lg } = props;
+  const { products, xs, md, lg } = props;
   let xsProp = xs ?? 12;
   let mdProp = md ?? 4;
   let lgProp = lg ?? 3;
-  let limitOptional = limit ?? products.length;
-  if( limit > products.length ) {
-    limitOptional = products.length;
-  }
   const createTemplate = (items) => {
     const itemsClone = [...items];
     let template = [];
-    for (let i = 0; i < limitOptional; i++) {
+    for (let i = 0; i < products.length; i++) {
       const {
         id,
         name,

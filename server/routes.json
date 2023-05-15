@@ -1,0 +1,4 @@
+{
+  "/option/menuHeader/*": "/$1",
+  "/option/homepage/*": "/$2"
+}
