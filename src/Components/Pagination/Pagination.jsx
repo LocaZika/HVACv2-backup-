@@ -3,15 +3,16 @@ import './Pagination.scss';
 import { useEffect, useState } from "react";
 
 
-export default function Pagination({setPage, totalPages}) {
+export default function Pagination({setPage, totalCount}) {
   const [currentPage, setCurrentPage] = useState(1);
-  const { items } = usePagination({count: totalPages});
+  const { items } = usePagination({count: 10});
   const handleClickPagination = (page) => {
     setCurrentPage(page);
+    console.log(currentPage);
   };
   useEffect(()=>{
     setPage(currentPage);
-  },[currentPage])
+  },[])
   return (
     <List className="pagination">
       {
@@ -29,13 +30,11 @@ export default function Pagination({setPage, totalPages}) {
                   color: '#353535',
                 } : {}}
                 {...item}
-                onClick={() => handleClickPagination(page)}
-              >
-                {page}
+              >{page}
               </button>
             );
           }
-        return <li key={index}>{children}</li>;
+        return <li key={index} onClick={() => handleClickPagination(page)}>{children}</li>;
         })
       }
     </List>

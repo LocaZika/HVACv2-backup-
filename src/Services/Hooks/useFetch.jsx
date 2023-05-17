@@ -1,16 +1,18 @@
+import { useSearchParams } from "react-router-dom";
+
 const host = import.meta.env.VITE_HOST;
 
 const generateUrl = (obj) => {
-    const length = obj.length;
+  let url = '?';
+  const length = obj.length;
     if (length === 0){
       return '';
     }
-    let url = '?';
     if (obj.sort ?? undefined){
       url += `&_sort=${obj.sort}`;
     }
     if (obj.order ?? undefined){
-      url += `&order=${obj.order}`;
+      url += `&_order=${obj.order}`;
     }
     if (obj.page ?? undefined){
       url += `&_page=${obj.page}`;
@@ -29,6 +31,7 @@ const generateUrl = (obj) => {
     return url;
   };
 export default function useFetch(path) {
+  const [searchParams, setSearchParams] = useSearchParams();
   /**
    * 
    * @param {string} method Set method to call api. Require* UPPERCASE.
@@ -43,6 +46,7 @@ export default function useFetch(path) {
     let responsive = {};
     const defData = requestObject.data ?? null;
     const defExUrl = requestObject.extraUrl ?? '';
+    const defUrl = host + path + defExUrl;
     let initFetch = {
       method,
       'content-type': 'application/json',
@@ -50,13 +54,14 @@ export default function useFetch(path) {
     if (defData != null){
       return initFetch.body = JSON.stringify(defData);
     }
-    const RES = await fetch(host + path + defExUrl, initFetch);
+    const RES = await fetch(defUrl, initFetch);
     const DATA = await RES.json();
     responsive = {data: DATA, res: RES};
     return responsive;
   };
   const get = (extraOpt) => {
     const defExOpt = extraOpt ?? {};
+    setSearchParams(defExOpt, {replace: true});
     const extraUrl = generateUrl(defExOpt);
     return send('GET', {extraUrl});
   };

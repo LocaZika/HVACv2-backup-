@@ -45,7 +45,7 @@
     },
     {
       "id": 3,
-      "name": "porsche cayenne turbo s",
+      "name": "porsche cayenne turbo sa",
       "brand": "porsche",
       "price": 730900,
       "gearboxType": "auto",
@@ -66,7 +66,7 @@
     },
     {
       "id": 4,
-      "name": "Bmw s1000rr 2019 m",
+      "name": "Bmw s1000rr 2019 mx",
       "brand": "BMW",
       "price": 736500,
       "gearboxType": "auto",
@@ -117,9 +117,9 @@
     },
     {
       "id": 7,
-      "name": "mercedes g63",
+      "name": "mercedes g63 super",
       "brand": "mercedes-benz",
-      "price": 1400,
+      "price": 1421,
       "gearboxType": "auto",
       "seats": "2",
       "model": "q3",
@@ -138,9 +138,9 @@
     },
     {
       "id": 8,
-      "name": "lamborghini aventardo a90",
+      "name": "lamborghini aventardo a93",
       "brand": "lamborghini",
-      "price": 422,
+      "price": 533,
       "gearboxType": "auto",
       "seats": "4-5",
       "model": "a3",
@@ -159,9 +159,9 @@
     },
     {
       "id": 9,
-      "name": "porsche cayenne turbo s",
+      "name": "porsche cayenne turbo sl",
       "brand": "porsche",
-      "price": 730900,
+      "price": 780000,
       "gearboxType": "auto",
       "seats": "2",
       "model": "a3",
@@ -180,9 +180,9 @@
     },
     {
       "id": 10,
-      "name": "Bmw s1000rr 2019 m",
+      "name": "Bmw s1000rr 2019 bdsm",
       "brand": "BMW",
-      "price": 736500,
+      "price": 734500,
       "gearboxType": "auto",
       "horsePower": 700,
       "mpg": 3500,
@@ -197,7 +197,7 @@
     },
     {
       "id": 11,
-      "name": "Lamborghini huracan evo",
+      "name": "Lamborghini huracan evolution",
       "brand": "lamborghini",
       "price": 730900,
       "gearboxType": "auto",
@@ -214,9 +214,9 @@
     },
     {
       "id": 12,
-      "name": "Mustang shelby gt500",
+      "name": "Mustang shelby gt501",
       "brand": "ford",
-      "price": 6500,
+      "price": 7500,
       "gearboxType": "auto",
       "horsePower": 700,
       "mpg": 3500,
@@ -231,9 +231,9 @@
     },
     {
       "id": 13,
-      "name": "mercedes g63",
+      "name": "mercedes g65",
       "brand": "mercedes-benz",
-      "price": 1400,
+      "price": 1522,
       "gearboxType": "auto",
       "seats": "2",
       "model": "q3",
@@ -252,9 +252,9 @@
     },
     {
       "id": 14,
-      "name": "lamborghini aventardo a90",
+      "name": "lamborghini aventardo a97",
       "brand": "lamborghini",
-      "price": 422,
+      "price": 600,
       "gearboxType": "auto",
       "seats": "4-5",
       "model": "a3",
@@ -273,9 +273,9 @@
     },
     {
       "id": 15,
-      "name": "porsche cayenne turbo s",
+      "name": "porsche cayenne turbo s2",
       "brand": "porsche",
-      "price": 730900,
+      "price": 732300,
       "gearboxType": "auto",
       "seats": "2",
       "model": "a3",
@@ -294,7 +294,7 @@
     },
     {
       "id": 16,
-      "name": "Bmw s1000rr 2019 m",
+      "name": "Bmw s1000rr 2019 mq",
       "brand": "BMW",
       "price": 736500,
       "gearboxType": "auto",
@@ -311,7 +311,7 @@
     },
     {
       "id": 17,
-      "name": "Lamborghini huracan evo",
+      "name": "Lamborghini huracan evos",
       "brand": "lamborghini",
       "price": 730900,
       "gearboxType": "auto",
@@ -328,7 +328,7 @@
     },
     {
       "id": 18,
-      "name": "Mustang shelby gt500",
+      "name": "Mustang shelby gt500 xl",
       "brand": "ford",
       "price": 6500,
       "gearboxType": "auto",
@@ -353,7 +353,7 @@
       {"id": 4, "title": "about", "path": "/about"},
       {"id": 5, "title": "contact", "path": "/contact"}
     ],
-    "homepage": {
+    "homePage": {
       "hero": {
         "title": "find your dream car",
         "hotSale": {"name":"porsche cayenne turbo s", "model": "2019", "price": "399", "status": "rent"},
@@ -404,7 +404,7 @@
           }
         ]
       },
-      "feature": {
+      "features": {
         "title": "we are a trusted name in auto",
         "description": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
@@ -439,7 +439,8 @@
         "image": "https://preview.colorlib.com/theme/hvac/img/feature/car.png"
       },
       "car": {
-        "title": "best vehicle offer"
+        "title": "best vehicle offer",
+        "tabLabels": ["most researched", "latest on sale"]
       },
       "chooseUs": {
         "title": "why people choose us",

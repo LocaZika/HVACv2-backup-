@@ -10,7 +10,7 @@
     top: 50%;
     width: 605px;
     height: 404px;
-    background-image: url(https://preview.colorlib.com/theme/hvac/img/feature/car.png);
+    background-image: var(--bg-feature);
     transform: translate(-300px, -202px);
     z-index: -1;
   }

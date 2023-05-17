@@ -6,16 +6,11 @@ import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import ReactPlayer from 'react-player';
 
-const textList = [
-  'lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  'integer et nisl et massa tempor ornare vel id orci.',
-  'nunc consectetur ligula vitae nisl placerat tempus.',
-  'curabitur quis ante vitae lacus varius pretium.',
-];
-export default function ChooseUs() {
+
+export default function ChooseUs({db}) {
   const [active, setActive] = useState(false);
   const breakpointFix = useMediaQuery(theme => theme.breakpoints.down('lg'));
-  const videoUrl = 'https://www.youtube.com/watch?v=RiVs0E554o0';
+  const {title, description, reasons, video} = db;
   const handlePlay = () => {
     setActive(true);
   }
@@ -41,16 +36,15 @@ export default function ChooseUs() {
           >
             <Box className='choose-us__text__title'>
               <Box component={'h2'}>
-                why people choose us
+                {title}
               </Box>
               <Box component={'p'}>
-                Duis aute irure dolorin reprehenderits volupta velit dolore fugiat nulla pariatur
-                excepteur sint occaecat cupidatat.
+                {description}
               </Box>
             </Box>
             <Box component={'ul'} className='choose-us__text__reasons'>
               {
-                textList.map((item, index) => (
+                reasons.map((item, index) => (
                   <Box key={index} component={'li'} >
                     <FontAwesomeIcon icon={faCircleCheck} color='#db2d2e' />
                     {item}
@@ -76,7 +70,7 @@ export default function ChooseUs() {
             className='choose-us__video'
           >
             <ReactPlayer
-              url={videoUrl}
+              url={video}
               width={'100%'}
               height={'100%'}
               onPlay={handlePlay}

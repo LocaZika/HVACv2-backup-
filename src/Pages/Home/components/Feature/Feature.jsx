@@ -2,10 +2,11 @@ import { useMediaQuery, Box, Container, Unstable_Grid2 as Grid, Link } from '@mu
 import './Feature.scss';
 import FeatureItem from './FeatureItem';
 
-export default function Feature() {
+export default function Feature({db}) {
   const breakpointFix = useMediaQuery(theme => theme.breakpoints.down('lg'));
+  const {title, description, items, image} = db;
   return (
-    <Box component={'section'} className='feature spad'>
+    <Box component={'section'} className='feature spad' style={{'--bg-feature': `url(${image})`}}>
       <Container disableGutters={true} fixed={true} >
         <Grid container>
           <Grid sm={12} lg={4} paddingX={'15px'} sx={
@@ -19,17 +20,14 @@ export default function Feature() {
               <Box component={'span'}>
                 our features
               </Box>
-              <Box component={'h2'}>we are a trusted name in auto</Box>
+              <Box component={'h2'}>{title}</Box>
             </Box>
             <Box className={'feature__desc'}>
               <Box component={'p'}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et
+                {description[0]}
               </Box>
               <Box component={'p'}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                viverra maecenas accumsan lacus vel facilisis.
+                {description[1]}
               </Box>
             </Box>
             <Box className={'feature__link'}>
@@ -39,7 +37,7 @@ export default function Feature() {
           </Grid>
           <Grid sm={12} lg={4} lgOffset={4} paddingX={'15px'}>
             <Grid container>
-              <FeatureItem />
+              <FeatureItem items={items} />
             </Grid>
           </Grid>
         </Grid>

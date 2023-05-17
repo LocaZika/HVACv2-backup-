@@ -33,9 +33,10 @@ TabPanel.propTypes = {
   index: PropTypes.number.isRequired,
   value: PropTypes.number.isRequired,
 };
-export default function Car() {
+export default function Car({db}) {
   const [activeTab, setActiveTab] = useState(0);
   const [products, setProducts] = useState([]);
+  const {title, tabLabels} = db;
   const api = useFetch('cars');
   // let products = [];
   useEffect(() => {
@@ -52,14 +53,14 @@ export default function Car() {
           <Grid item lg={12}>
             <Box className='section-title car__title'>
               <Box component={'span'}>our car</Box>
-              <Box component={'h2'}>best vehicle offers</Box>
+              <Box component={'h2'}>{title}</Box>
             </Box>
             <Box className='car__filter'>
               <Tabs value={activeTab} onChange={handleChangeTab} sx={{
                 marginBottom: '40px',
               }}>
-                <Tab label='most researched' {...allyProps(0)} />
-                <Tab label='lastest on sale' {...allyProps(1)} />
+                <Tab label={tabLabels[0]} {...allyProps(0)} />
+                <Tab label={tabLabels[1]} {...allyProps(1)} />
               </Tabs>
             </Box>
           </Grid>

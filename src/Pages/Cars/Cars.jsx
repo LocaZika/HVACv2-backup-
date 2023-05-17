@@ -6,6 +6,8 @@ import CarSort from './Components/CarSort';
 import { ProductCard } from 'Components';
 import { useFetch } from 'Services/Hooks';
 import { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
+import { webDbState } from 'Services/Redux';
 
 export default function Cars() {
   const [extraOpt, setExtraOpt] = useState({
@@ -13,9 +15,10 @@ export default function Cars() {
     page: 1,
     order: 'desc',
     limit: 9,
-    totalPages: 0,
   });
+  const [totalCount, setTotalCount] = useState(0);
   const [carList, setCarList] = useState([]);
+  const {cars} = useSelector(webDbState);
   const api = useFetch('cars');
   const handleSortOptions = (limit, sortOption) => {
     setExtraOpt({
@@ -32,13 +35,13 @@ export default function Cars() {
   };
   useEffect(() => {
     api.get(extraOpt).then(({res, data}) => {
-      setExtraOpt({
-        ...extraOpt,
-        totalPages: Math.round(res.headers.get('X-Total-Count') / extraOpt.limit)
-      });
+      setTotalCount(Math.round(res.headers.get('X-Total-Count') / extraOpt.limit))
       setCarList(data);
     });
   }, []);
+  if (carList.length === 0){
+    return <div></div>
+  }
   return (
     <>
       <Breadcrumb currentPath={'car listing'} />
@@ -65,7 +68,7 @@ export default function Cars() {
                 <ProductCard products={carList} lg={4} />
               </Grid>
               <Grid container className='cars-pagination'>
-                <Pagination totalPage={extraOpt.totalPages} setPage={handleClickPagination}  />
+                <Pagination totalCount={totalCount} setPage={handleClickPagination}  />
               </Grid>
             </Grid>
           </Grid>

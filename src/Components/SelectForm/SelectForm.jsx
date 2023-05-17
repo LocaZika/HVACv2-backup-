@@ -24,10 +24,12 @@ import SliderRange from 'Components/SliderRange/SliderRange';
  * 
  * @returns Component
  */
-export default function SelectForm({select, submitText, titleInside, column}) {
+export default function SelectForm(props) {
   const [filterUrl, setFilterUrl] = useState('');
   const sliderValue = useSelector(sliderState);
   const dispath = useDispatch();
+  const {select, submitText, titleInside, column} = props;
+  // console.log(props);
   const { result } = selectFormSlice.actions;
   let columnProp = false;
   if (column !== undefined) {
@@ -38,51 +40,39 @@ export default function SelectForm({select, submitText, titleInside, column}) {
     titleInsideOpt = true;
   }
   const setOptionUrl = (key, value) => {
-    setFilterUrl(`${filterUrl}&${key}=${value}`);
-  };
-  let template = [];
-  const createTemplate = () => {
-    for (let i = 0; i < select.length; i++) {
-      const component = (
-        <Grid item xs={12} lg={5} sx={
-          columnProp === true ? {flex: '0 0 100%', minWidth: '100%'} : {flex: '0 0 calc(50% - 20px)', minWidth: 'calc(50% - 20px)'}
-          }>
-         <FormControl className="select-group__control" >
-          {
-            titleInsideOpt === true ?
-              null :
-              <Box component={'p'} className='select-group__title'>Select {select[i].title}</Box>
-          }
-            <SelectFormItem
-              titleInside={titleInsideOpt}
-              menuItem={select[i].values}
-              title={select[i].title}
-              onSelect={(value) => setOptionUrl(select[i].title, value)}
-            />
-        </FormControl>
-        </Grid>
-      );
-      template.push(component);
+    let url = {
+      key,
+      value
     }
-
+    setFilterUrl(`${filterUrl}&${url.key}=${url.value}`);
   };
-  createTemplate();
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch('GET', null,{mode: 'filter', filter: filterUrl}).then(({data}) => {
-      const dataFilter = data.filter(item => sliderValue[0] < item.price < sliderValue[1]);
-      dispath(result(dataFilter));
-    })
+    
   };
   return (
     <Grid className='select-form'>
       <form onSubmit={handleSubmit} >
         <Grid item container className='select-group' >
           {
-            template.map((component, index) => (
-              <Fragment key={index}>
-                {component}
-              </Fragment>
+            select.map(({title, values}, index) => (
+              <Grid key={index} item xs={12} lg={5} sx={
+                columnProp === true ? {flex: '0 0 100%', minWidth: '100%'} : {flex: '0 0 calc(50% - 20px)', minWidth: 'calc(50% - 20px)'}
+                }>
+              <FormControl className="select-group__control" >
+                {
+                  titleInsideOpt === true ?
+                    null :
+                    <Box component={'p'} className='select-group__title'>Select {title}</Box>
+                }
+                  <SelectFormItem
+                    titleInside={titleInsideOpt}
+                    menuItem={values}
+                    title={title}
+                    onSelect={(value) => setOptionUrl(title, value)}
+                  />
+                </FormControl>
+              </Grid>
             ))
           }
         </Grid>

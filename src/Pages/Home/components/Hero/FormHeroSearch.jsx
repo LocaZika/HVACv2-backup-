@@ -1,7 +1,8 @@
 import { FormGroup, Grid } from "@mui/material";
 import { SelectForm } from "Components";
 
-export default function FormHeroSearch({select}) {
+export default function FormHeroSearch(props) {
+  const {select} = props;
   return (
     <FormGroup>
       <Grid container className="hero__tab-panel__form">

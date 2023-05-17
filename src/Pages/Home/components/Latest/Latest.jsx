@@ -3,7 +3,8 @@ import './Latest.scss';
 import { PostCard } from 'Components';
 
 
-export default function Latest() {
+export default function Latest({db}) {
+  const {title, description} = db;
   return (
     <Box component={'section'} className={'lastest spad'}>
       <Container fixed>
@@ -14,11 +15,11 @@ export default function Latest() {
                 our blogs
               </Box>
               <Box component={'h2'}>
-                lastest new update
+                {title}
               </Box>
               <Box component={'p'}>
-                Sign up for the latest Automobile Industry information and more. Duis aute <br/>
-                irure dolorin reprehenderits volupta velit dolore fugiat.
+                {description[0]} <br/>
+                {description[1]}
               </Box>
             </Box>
           </Grid>

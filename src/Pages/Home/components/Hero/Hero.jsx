@@ -68,7 +68,7 @@ export default function Hero({db}) {
                   fontWeight: 700,
                   lineHeight: '45px',
                 }}>
-                  {hotSale.price}
+                  ${hotSale.price}
                   {
                     hotSale.status === 'rent' ? (
                       <Box component={'span'} sx={{
