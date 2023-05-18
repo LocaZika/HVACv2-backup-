@@ -8,11 +8,11 @@ export default function Pagination({setPage, totalCount}) {
   const { items } = usePagination({count: 10});
   const handleClickPagination = (page) => {
     setCurrentPage(page);
-    console.log(currentPage);
+    
   };
   useEffect(()=>{
-    setPage(currentPage);
-  },[])
+    //setPage(currentPage);
+  },[currentPage])
   return (
     <List className="pagination">
       {
