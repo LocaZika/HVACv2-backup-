@@ -1,9 +1,10 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
+import dns from "dns";
 
 const projectDirRoot = path.resolve(__dirname);
-// https://vitejs.dev/config/
+dns.setDefaultResultOrder("verbatim");
 export default defineConfig({
   plugins: [react()],
   server: {
