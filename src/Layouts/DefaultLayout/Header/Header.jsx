@@ -3,7 +3,7 @@ import { HeaderMobile, HeaderDesktop } from './Components';
 import { useMediaQuery } from '@mui/material';
 
 const menuItem = [
-  {title: 'cars', path: '/cars'},
+  {title: 'cars', path: '/car-listing'},
   {title: 'blog', path: '/blog'},
   {title: 'about', path: '/about'},
   {title: 'contact', path: '/contact'},

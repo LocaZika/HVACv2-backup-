@@ -5,6 +5,7 @@ export { default as Orders } from "./Orders/Orders";
 export { default as Cart } from "./Cart/Cart";
 export { default as Contact } from "./Contact/Contact";
 export { default as Cars } from "./Cars/Cars";
+export { default as CarDetail } from "./Cars/CarDetail/CarDetail";
 
 // Slices
 export { cartSlice } from "./Cart/cartSlice";

@@ -74,7 +74,7 @@ export default function ProductCard(props) {
                   height={'60px'}
                 >
                   <Link
-                    to={`products/detail:${id}`}
+                    to={`car-detail/${id}`}
                     className='product-card__title'
                   >{name}</Link>
                 </Typography>
@@ -98,11 +98,11 @@ export default function ProductCard(props) {
               <CardActions className='product-card__price'>
                 {
                   status === 'sale' ? (
-                    <Link to={`products/detail:${id}`}
+                    <Link to={`car-detail/${id}`}
                       className='product-card__price__option sale'
                     >for sale</Link>
                   ) : (
-                    <Link to={`products/detail:${id}`}
+                    <Link to={`car-detail/${id}`}
                       className='product-card__price__option'
                     >for rent</Link>
                   )

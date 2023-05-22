@@ -61,7 +61,7 @@ export default function Cars() {
       }
       setTotalCount(Math.ceil(res.headers.get('X-Total-Count') / extraOpt.limit));
       setCarList(data);
-      console.log(searchResult);
+      // console.log(searchResult);
       setSearchParams(params);
     });
   }, [totalCount, extraOpt]);
