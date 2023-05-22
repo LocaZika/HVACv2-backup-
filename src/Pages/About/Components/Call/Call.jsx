@@ -26,7 +26,7 @@ export default function Call() {
                 effective message that conveyed customer’s
               </Box>
             </Box>
-            <Link to={'#'}>contact us</Link>
+            <Link to={'/contact'}>contact us</Link>
           </Grid>
           <Grid md={6} lg={6} lgOffset={1}>
             <form className='call__form'>

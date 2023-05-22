@@ -11,6 +11,7 @@
     "server": "cd server && json-server db.json --w --p 2207"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",

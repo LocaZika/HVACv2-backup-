@@ -2,7 +2,7 @@ import { Grid, Box, Select, MenuItem } from '@mui/material';
 import { useEffect, useState } from 'react';
 
 export default function CarSort({setSort}) {
-  const [limit, setlimit] = useState('9');
+  const [limit, setlimit] = useState(9);
   const [sortByPrice, setSortByPrice] = useState('desc');
   const handleLimit = (e) => {
     setlimit(e.target.value);
@@ -12,7 +12,7 @@ export default function CarSort({setSort}) {
   };
   useEffect(() => {
     setSort(limit, sortByPrice);
-  }, [])
+  }, [limit, sortByPrice])
   return (
     <Grid container justifyContent={'space-between'} className="cars-sort__option" >
       <Grid item md={6} lg={6} className="cars-sort__option--quantity" >

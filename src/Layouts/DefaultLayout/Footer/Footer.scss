@@ -22,16 +22,28 @@ footer{
       text-transform: capitalize;
       font-size: 40px;
       font-weight: 700;
+      @media only screen and (max-width: 767px) {
+        margin-bottom: 20px;
+      }
     }
-    &__tel{
-      background: #db2d2e;
-      margin-right: 16px;
-    }
-    &__email{
-      color: #323232;
-      background-color: #fff;
-      >svg path{
-        color: #db2d2e;
+    &__options{
+      text-align: right;
+      @media only screen and (max-width: 767px) {
+        text-align: left;
+        >div{
+          margin-bottom: 12px;
+        }
+      }
+      &__tel{
+        background: #db2d2e;
+        margin-right: 16px;
+      }
+      &__email{
+        color: #323232;
+        background-color: #fff;
+        >svg path{
+          color: #db2d2e;
+        }
       }
     }
   }

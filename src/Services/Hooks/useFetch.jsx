@@ -1,37 +1,42 @@
-import { useSearchParams } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const host = import.meta.env.VITE_HOST;
-
 const generateUrl = (obj) => {
   let url = '?';
+  const checkPrefix = (key, value) => {
+    url.charAt(1) === '' ?
+      url += `_${key}=${value}` :
+      url += `&_${key}=${value}`;
+  }
   const length = obj.length;
     if (length === 0){
       return '';
     }
     if (obj.sort ?? undefined){
-      url += `&_sort=${obj.sort}`;
+      checkPrefix('sort', obj.sort);
     }
     if (obj.order ?? undefined){
-      url += `&_order=${obj.order}`;
+      checkPrefix('order', obj.order);
     }
     if (obj.page ?? undefined){
-      url += `&_page=${obj.page}`;
+      checkPrefix('page', obj.page);
     }
     if (obj.limit ?? undefined){
-      url += `&_limit=${obj.limit}`;
+      checkPrefix('limit', obj.limit);
     }
     if (obj.search ?? undefined){
-      url += `q=${obj.search}`;
+      url.charAt(1) === '' ?
+        url += `q=${obj.search}` :
+        url += `&q=${obj.search}`;
     }
     if (obj.filter ?? undefined){
       for (let item in obj.filter){
-        url += `&${item}=${ obj.filter[item]}`;
+        checkPrefix('filter', obj.filter[item]);
       }
     }
     return url;
   };
 export default function useFetch(path) {
-  const [searchParams, setSearchParams] = useSearchParams();
   /**
    * 
    * @param {string} method Set method to call api. Require* UPPERCASE.
@@ -61,7 +66,6 @@ export default function useFetch(path) {
   };
   const get = (extraOpt) => {
     const defExOpt = extraOpt ?? {};
-    setSearchParams(defExOpt, {replace: true});
     const extraUrl = generateUrl(defExOpt);
     return send('GET', {extraUrl});
   };
@@ -75,4 +79,8 @@ export default function useFetch(path) {
     return send('DELETE', {id});
   };
   return {get, post, update, remove};
+}
+
+useFetch.propTypes = {
+  path: PropTypes.string.isRequired,
 }

@@ -23,32 +23,34 @@ export default function Footer() {
             marginBottom: '65px',
           }}
         >
-          <Grid item lg={6}>
-            <h2 className='contact__title'>contact us now!</h2>
+          <Grid item xs={12} md={6} lg={6} className='contact__title'>
+            <h2>contact us now!</h2>
           </Grid>
-          <Grid item lg={6} sx={{textAlign: 'right'}}>
-            <div className='contact contact__tel'>
-              <FontAwesomeIcon icon={faPhone} />
-              (+84) 123 456 789
+          <Grid item xs={12} md={6} lg={6} className='contact__options'>
+            <div className='contact contact__options__tel'>
+              <a href={`tel:+84123456789`}>
+                <FontAwesomeIcon icon={faPhone} />
+                &nbsp;(+84) 123 456 789
+              </a>
             </div>
-            <div className='contact contact__email'>
+            <div className='contact contact__options__email'>
               <FontAwesomeIcon icon={faEnvelope} />
-              locazika@gmail.com
+              &nbsp;locazika@gmail.com
             </div>
           </Grid>
         </Grid>
         <Grid>
           <Grid2 container>
-            <Grid2 md={4} lg={4} className='footer__left' sx={{marginBottom: '20px'}}>
+            <Grid2 xs={12} md={4} lg={4} className='footer__left' sx={{marginBottom: '20px'}}>
               <FooterLeft />
             </Grid2>
-            <Grid2 md={3} lg={2} lgOffset={1} >
+            <Grid2 xs={12} md={3} lg={2} lgOffset={1} >
               <FooterInfo />
             </Grid2>
-            <Grid2 md={3} lg={2}>
+            <Grid2 xs={12} md={3} lg={2}>
               <FooterCarType />
             </Grid2>
-            <Grid2 md={6} lg={3}>
+            <Grid2 xs={12} md={6} lg={3}>
               <FooterTopBrands />
             </Grid2>
           </Grid2>

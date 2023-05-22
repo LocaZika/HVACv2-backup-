@@ -5,13 +5,13 @@ import { useEffect, useState } from "react";
 
 export default function Pagination({setPage, totalCount}) {
   const [currentPage, setCurrentPage] = useState(1);
-  const { items } = usePagination({count: 10});
+  const { items } = usePagination({count: totalCount});
   const handleClickPagination = (page) => {
     setCurrentPage(page);
     
   };
   useEffect(()=>{
-    //setPage(currentPage);
+    setPage(currentPage);
   },[currentPage])
   return (
     <List className="pagination">

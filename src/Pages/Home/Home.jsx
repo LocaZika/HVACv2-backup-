@@ -1,26 +1,36 @@
 import { Grid } from '@mui/material';
 import './Home.scss';
 import { Car, ChooseUs, Cta, Feature, Hero, Latest, Service } from './components';
-import { useDispatch, useSelector } from 'react-redux';
-import { webDbSlice } from 'Services/Redux';
-import { useContext, useEffect } from 'react';
+import {  useEffect, useState } from 'react';
 import { useFetch } from 'Services/Hooks';
-import { webDbState } from 'Services/Redux';
+import { Loader } from 'Components';
 
 export default function Home() {
-  const { homePage } = useSelector(webDbState);
-  if (homePage === undefined){
-    return <div></div>
+  const api = useFetch('homePage');
+  const [homePage, setHomePage] = useState({
+    data: undefined,
+    loading: true,
+  });
+  useEffect(() => {
+    api.get().then(({data}) => {
+      // setHomePage({data: data, loading: false});
+      console.log(homePage);
+    });
+  }, []);
+  if (homePage.loading === true){
+    return <Loader />;
+  }else{
+    const {hero, services, features, car, chooseUs, blog, cta} = homePage.data;
+    return (
+      <Grid className='home' sx={{padding: 0}}>
+        <Hero db={hero} />
+        <Service db={services} />
+        <Feature db={features} />
+        <Car db={car} />
+        <ChooseUs db={chooseUs} />
+        <Latest db={blog} />
+        <Cta db={cta} />
+      </Grid>
+    )
   }
-  return (
-    <Grid className='home' sx={{padding: 0}}>
-      <Hero db={homePage.hero} />
-      <Service db={homePage.services} />
-      <Feature db={homePage.features} />
-      <Car db={homePage.car} />
-      <ChooseUs db={homePage.chooseUs} />
-      <Latest db={homePage.blog} />
-      <Cta db={homePage.cta} />
-    </Grid>
-  )
 }

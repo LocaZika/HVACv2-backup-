@@ -342,269 +342,284 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
       ]
+    },
+    {
+      "id": 19,
+      "name": "vinfast vf8",
+      "brand": "vinfast",
+      "price": 4300,
+      "gearboxType": "auto",
+      "horsePower": 700,
+      "mpg": 3500,
+      "yearOfManufacture": 2022,
+      "status": "sale",
+      "images": [
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-1.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
+        "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
+      ]
     }
   ],
   "blogs": [],
-  "options": {
-    "menuHeader": [
-      {"id": 1, "title": "home", "path": "/"},
-      {"id": 2, "title": "cars", "path": "/cars"},
-      {"id": 3, "title": "blog", "path": "/blog"},
-      {"id": 4, "title": "about", "path": "/about"},
-      {"id": 5, "title": "contact", "path": "/contact"}
-    ],
-    "homePage": {
-      "hero": {
-        "title": "find your dream car",
-        "hotSale": {"name":"porsche cayenne turbo s", "model": "2019", "price": "399", "status": "rent"},
-        "imageBg": "https://preview.colorlib.com/theme/hvac/img/hero-bg.jpg",
-        "imageLink": "https://preview.colorlib.com/theme/hvac/img/wheel.png",
-        "items": [
-          {
-            "title": "year",
-            "values": [2020, 2019, 2018, 2017, 2016, 2015]
-          },
-          {
-            "title": "brand",
-            "values":["audi", "lamborghini", "bugatti", "BWM"]
-          },
-          {
-            "title": "model",
-            "values": ["q3", "q4", "aventador"]
-          },
-          {
-            "title": "miles",
-            "values": [27, 25, 15, 10]
-          }
-        ]
-      },
-      "services":{
-        "title": "what we offers",
-        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
-        "items":[
-          {
-            "title": "rental a car",
-            "image": "https://preview.colorlib.com/theme/hvac/img/services/services-1.png",
-            "text": "Consectetur adipiscing elit incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas."
-          },
-          {
-            "title": "buying a car",
-            "image": "https://preview.colorlib.com/theme/hvac/img/services/services-2.png",
-            "text": "Consectetur adipiscing elit incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas."
-          },
-          {
-            "title": "car maintenance",
-            "image": "https://preview.colorlib.com/theme/hvac/img/services/services-3.png",
-            "text": "Consectetur adipiscing elit incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas."
-          },
-          {
-            "title": "support 24/7",
-            "image": "https://preview.colorlib.com/theme/hvac/img/services/services-4.png",
-            "text": "Consectetur adipiscing elit incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas."
-          }
-        ]
-      },
-      "features": {
-        "title": "we are a trusted name in auto",
-        "description": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
-        ],
-        "items": [
-          {
-            "title": "engine",
-            "image": "https://preview.colorlib.com/theme/hvac/img/feature/feature-1.png"
-          },
-          {
-            "title": "turbo'",
-            "image": "https://preview.colorlib.com/theme/hvac/img/feature/feature-2.png"
-          },
-          {
-            "title": "cooling",
-            "image": "https://preview.colorlib.com/theme/hvac/img/feature/feature-3.png"
-          },
-          {
-            "title": "suspension",
-            "image": "https://preview.colorlib.com/theme/hvac/img/feature/feature-4.png"
-          },
-          {
-            "title": "electrical",
-            "image": "https://preview.colorlib.com/theme/hvac/img/feature/feature-5.png"
-          },
-          {
-            "title": "break",
-            "image": "https://preview.colorlib.com/theme/hvac/img/feature/feature-6.png"
-          }
-        ],
-        "image": "https://preview.colorlib.com/theme/hvac/img/feature/car.png"
-      },
-      "car": {
-        "title": "best vehicle offer",
-        "tabLabels": ["most researched", "latest on sale"]
-      },
-      "chooseUs": {
-        "title": "why people choose us",
-        "description": "duis aute irure dolorin reprehenderits volupta velit dolore fugiat nulla pariatur excepteur sint occaecat cupidatat.",
-        "reasons": [
-          "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          "integer et nisl et massa tempor ornare vel id orci.",
-          "nunc consectetur ligula vitae nisl placerat tempus.",
-          "curabitur quis ante vitae lacus varius pretium."
-        ],
-        "video": "https://www.youtube.com/watch?v=RiVs0E554o0"
-      },
-      "blog": {
-        "title": "lastest new update",
-        "description": ["Sign up for the latest Automobile Industry information and more. Duis aute", "irure dolorin reprehenderits volupta velit dolore fugiat."]
-      },
-      "cta": {
-        "items": [
-          {
-            "title": "do you want to buy a car",
-            "image": "https://preview.colorlib.com/theme/hvac/img/cta/cta-1.jpg",
-            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
-          },
-          {
-            "title": "do you want to rent a car",
-            "image": "https://preview.colorlib.com/theme/hvac/img/cta/cta-2.jpg",
-            "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
-          }
-        ]
-      }
-    },
-    "carsPage": {
-      "filter": [
+  "menuHeader": [
+    {"id": 1, "title": "home", "path": "/"},
+    {"id": 2, "title": "cars", "path": "/cars"},
+    {"id": 3, "title": "blog", "path": "/blog"},
+    {"id": 4, "title": "about", "path": "/about"},
+    {"id": 5, "title": "contact", "path": "/contact"}
+  ],
+  "homePage": {
+    "hero": {
+      "title": "find your dream car",
+      "hotSale": {"name":"porsche cayenne turbo s", "model": "2019", "price": "399", "status": "rent"},
+      "imageBg": "https://preview.colorlib.com/theme/hvac/img/hero-bg.jpg",
+      "imageLink": "https://preview.colorlib.com/theme/hvac/img/wheel.png",
+      "items": [
+        {
+          "title": "year",
+          "values": [2020, 2019, 2018, 2017, 2016, 2015]
+        },
         {
           "title": "brand",
-          "values": ["BMW", "bugatti", "toyota", "mercedes", "lamborghini", "porsche"]
+          "values":["audi", "lamborghini", "bugatti", "BWM"]
         },
         {
           "title": "model",
-          "values": ["q3", "a4", "aventador"]
+          "values": ["q3", "q4", "aventador"]
         },
         {
-          "title": "body style",
-          "values": ["buggy", "sedan", "SUV", "van", "couple"]
-        },
-        {
-          "title": "transmission",
-          "values": ["manual", "PDK", "tiptronic"]
-        },
-        {
-          "title": "fuel type",
-          "values": ["petrol", "diesel", "electro"]
-        },
-        {
-          "title": "seats",
-          "values": ["2", "4-5"]
+          "title": "miles",
+          "values": [27, 25, 15, 10]
         }
       ]
     },
-    "aboutPage": {
-      "title": ["wellcome to HVAC auto online", "we provide everything you need to a car"],
-      "description": ["First I will explain what contextual advertising is. Contextual advertising means the advertising of products on a website according to ", "the content the page is displaying. For example if the content of a website was information on a Ford truck then the advertisements"],
-      "features": [
+    "services":{
+      "title": "what we offers",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+      "items":[
         {
-          "title": "quality assurance system",
-          "image": "https://preview.colorlib.com/theme/hvac/img/about/af-1.png",
-          "text": "it seems though that some of the biggest problems with the internet advertising trends are the lack of"
+          "title": "rental a car",
+          "image": "https://preview.colorlib.com/theme/hvac/img/services/services-1.png",
+          "text": "Consectetur adipiscing elit incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas."
         },
         {
-          "title": "accurate testing processes",
-          "image": "https://preview.colorlib.com/theme/hvac/img/about/af-2.png",
-          "text": "where do you register your complaints? How can you protest in any form against companies whose"
+          "title": "buying a car",
+          "image": "https://preview.colorlib.com/theme/hvac/img/services/services-2.png",
+          "text": "Consectetur adipiscing elit incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas."
         },
         {
-          "title": "infrastructure integration technology",
-          "image": "https://preview.colorlib.com/theme/hvac/img/about/af-3.png",
-          "text": "So in final analysis: it’s true, I hate peeping Toms, but if I had to choose, I’d take one any day over an"
+          "title": "car maintenance",
+          "image": "https://preview.colorlib.com/theme/hvac/img/services/services-3.png",
+          "text": "Consectetur adipiscing elit incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas."
+        },
+        {
+          "title": "support 24/7",
+          "image": "https://preview.colorlib.com/theme/hvac/img/services/services-4.png",
+          "text": "Consectetur adipiscing elit incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas."
+        }
+      ]
+    },
+    "features": {
+      "title": "we are a trusted name in auto",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+      ],
+      "items": [
+        {
+          "title": "engine",
+          "image": "https://preview.colorlib.com/theme/hvac/img/feature/feature-1.png"
+        },
+        {
+          "title": "turbo'",
+          "image": "https://preview.colorlib.com/theme/hvac/img/feature/feature-2.png"
+        },
+        {
+          "title": "cooling",
+          "image": "https://preview.colorlib.com/theme/hvac/img/feature/feature-3.png"
+        },
+        {
+          "title": "suspension",
+          "image": "https://preview.colorlib.com/theme/hvac/img/feature/feature-4.png"
+        },
+        {
+          "title": "electrical",
+          "image": "https://preview.colorlib.com/theme/hvac/img/feature/feature-5.png"
+        },
+        {
+          "title": "break",
+          "image": "https://preview.colorlib.com/theme/hvac/img/feature/feature-6.png"
         }
       ],
-      "orientation": {
-        "image": "https://preview.colorlib.com/theme/hvac/img/about/about-pic.jpg",
-        "items": [
-          {"title": "our mission", "text": "Now, I’m not like Robin, that weirdo from my cultural anthropology class; I think that advertising is something that has its place in our society; which for better or worse is structured along a marketplace economy. But, simply because I feel advertising has a right to exist, doesn’t mean that I like or agree with it, in its"},
-          {"title": "our vision", "text": "Where do you register your complaints? How can you protest in any form against companies whose advertising techniques you don’t agree with? You don’t. And on another point of difference between traditional products and their advertising and those of the internet nature, simply ignoring internet advertising is"}
-        ]
-      },
-      "call": {
-        "title": "request a call back",
-        "description": "Posters had been a very beneficial marketing tool because it had paved to deliver an effective message that conveyed customer’s",
-        "form": {
-          "title": "choose our service",
-          "items": ["buy car", "sell car", "wash car"]
-        }
-      },
-      "team": {
-        "title": "meet our experts",
-        "items": [
-          {"name": "john smith", "job": "marketing", "image": "https://preview.colorlib.com/theme/hvac/img/about/team-1.jpg"},
-          {"name": "christine wise", "job": "C.E.O", "image": "https://preview.colorlib.com/theme/hvac/img/about/team-2.jpg"},
-          {"name": "sean robbins", "job": "manager", "image": "https://preview.colorlib.com/theme/hvac/img/about/team-3.jpg"},
-          {"name": "lucy myers", "job": "delivary", "image": "https://preview.colorlib.com/theme/hvac/img/about/team-4.jpg"}
-        ]
-      },
-      "testimonial": {
-        "title": "what peole say about us",
-        "description": "our customers are our biggest supporters. what do they think of us?",
-        "items": [
-          {
-            "name": "",
-            "job": "CEO Company",
-            "image": "https://preview.colorlib.com/theme/hvac/img/testimonial/testimonial-1.png",
-            "rating": 5
-          },
-          {
-            "name": "",
-            "job": "CEO Company",
-            "image": "https://preview.colorlib.com/theme/hvac/img/testimonial/testimonial-2.png",
-            "rating": 5
-          }
-        ]
-      },
-      "counter": [
-        {"title": "vehicles stock", "number": 1922},
-        {"title": "vehicles sale", "number": 1501},
-        {"title": "dealer reviews", "number": 1922},
-        {"title": "happy client", "number": 5100}
+      "image": "https://preview.colorlib.com/theme/hvac/img/feature/car.png"
+    },
+    "car": {
+      "title": "best vehicle offer",
+      "tabLabels": ["most researched", "latest on sale"]
+    },
+    "chooseUs": {
+      "title": "why people choose us",
+      "description": "duis aute irure dolorin reprehenderits volupta velit dolore fugiat nulla pariatur excepteur sint occaecat cupidatat.",
+      "reasons": [
+        "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "integer et nisl et massa tempor ornare vel id orci.",
+        "nunc consectetur ligula vitae nisl placerat tempus.",
+        "curabitur quis ante vitae lacus varius pretium."
       ],
-      "partner": {
-        "title": "our client",
-        "items": [
-          {
-            "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-1.png",
-            "alt": "client1"
-          },
-          {
-            "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-2.png",
-            "alt": "client2"
-          },
-          {
-            "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-3.png",
-            "alt": "client3"
-          },
-          {
-            "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-4.png",
-            "alt": "client4"
-          },
-          {
-            "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-2.png",
-            "alt": "client5"
-          },
-          {
-            "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-7.png",
-            "alt": "client6"
-          },
-          {
-            "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-6.png",
-            "alt": "client7"
-          },
-          {
-            "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-5.png",
-            "alt": "client8"
-          }
-        ]
+      "video": "https://www.youtube.com/watch?v=RiVs0E554o0"
+    },
+    "blog": {
+      "title": "lastest new update",
+      "description": ["Sign up for the latest Automobile Industry information and more. Duis aute", "irure dolorin reprehenderits volupta velit dolore fugiat."]
+    },
+    "cta": {
+      "items": [
+        {
+          "title": "do you want to buy a car",
+          "image": "https://preview.colorlib.com/theme/hvac/img/cta/cta-1.jpg",
+          "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+        },
+        {
+          "title": "do you want to rent a car",
+          "image": "https://preview.colorlib.com/theme/hvac/img/cta/cta-2.jpg",
+          "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+        }
+      ]
+    }
+  },
+  "carsPage": {
+    "filter": [
+      {
+        "title": "brand",
+        "values": ["BMW", "bugatti", "toyota", "mercedes", "lamborghini", "porsche"]
+      },
+      {
+        "title": "model",
+        "values": ["q3", "a4", "aventador"]
+      },
+      {
+        "title": "body style",
+        "values": ["buggy", "sedan", "SUV", "van", "couple"]
+      },
+      {
+        "title": "transmission",
+        "values": ["manual", "PDK", "tiptronic"]
+      },
+      {
+        "title": "fuel type",
+        "values": ["petrol", "diesel", "electro"]
+      },
+      {
+        "title": "seats",
+        "values": ["2", "4-5"]
       }
+    ]
+  },
+  "aboutPage": {
+    "title": ["wellcome to HVAC auto online", "we provide everything you need to a car"],
+    "description": ["First I will explain what contextual advertising is. Contextual advertising means the advertising of products on a website according to ", "the content the page is displaying. For example if the content of a website was information on a Ford truck then the advertisements"],
+    "features": [
+      {
+        "title": "quality assurance system",
+        "image": "https://preview.colorlib.com/theme/hvac/img/about/af-1.png",
+        "text": "it seems though that some of the biggest problems with the internet advertising trends are the lack of"
+      },
+      {
+        "title": "accurate testing processes",
+        "image": "https://preview.colorlib.com/theme/hvac/img/about/af-2.png",
+        "text": "where do you register your complaints? How can you protest in any form against companies whose"
+      },
+      {
+        "title": "infrastructure integration technology",
+        "image": "https://preview.colorlib.com/theme/hvac/img/about/af-3.png",
+        "text": "So in final analysis: it’s true, I hate peeping Toms, but if I had to choose, I’d take one any day over an"
+      }
+    ],
+    "orientation": {
+      "image": "https://preview.colorlib.com/theme/hvac/img/about/about-pic.jpg",
+      "items": [
+        {"title": "our mission", "text": "Now, I’m not like Robin, that weirdo from my cultural anthropology class; I think that advertising is something that has its place in our society; which for better or worse is structured along a marketplace economy. But, simply because I feel advertising has a right to exist, doesn’t mean that I like or agree with it, in its"},
+        {"title": "our vision", "text": "Where do you register your complaints? How can you protest in any form against companies whose advertising techniques you don’t agree with? You don’t. And on another point of difference between traditional products and their advertising and those of the internet nature, simply ignoring internet advertising is"}
+      ]
+    },
+    "call": {
+      "title": "request a call back",
+      "description": "Posters had been a very beneficial marketing tool because it had paved to deliver an effective message that conveyed customer’s",
+      "form": {
+        "title": "choose our service",
+        "items": ["buy car", "sell car", "wash car"]
+      }
+    },
+    "team": {
+      "title": "meet our experts",
+      "items": [
+        {"name": "john smith", "job": "marketing", "image": "https://preview.colorlib.com/theme/hvac/img/about/team-1.jpg"},
+        {"name": "christine wise", "job": "C.E.O", "image": "https://preview.colorlib.com/theme/hvac/img/about/team-2.jpg"},
+        {"name": "sean robbins", "job": "manager", "image": "https://preview.colorlib.com/theme/hvac/img/about/team-3.jpg"},
+        {"name": "lucy myers", "job": "delivary", "image": "https://preview.colorlib.com/theme/hvac/img/about/team-4.jpg"}
+      ]
+    },
+    "testimonial": {
+      "title": "what peole say about us",
+      "description": "our customers are our biggest supporters. what do they think of us?",
+      "items": [
+        {
+          "name": "",
+          "job": "CEO Company",
+          "image": "https://preview.colorlib.com/theme/hvac/img/testimonial/testimonial-1.png",
+          "rating": 5
+        },
+        {
+          "name": "",
+          "job": "CEO Company",
+          "image": "https://preview.colorlib.com/theme/hvac/img/testimonial/testimonial-2.png",
+          "rating": 5
+        }
+      ]
+    },
+    "counter": [
+      {"title": "vehicles stock", "number": 1922},
+      {"title": "vehicles sale", "number": 1501},
+      {"title": "dealer reviews", "number": 1922},
+      {"title": "happy client", "number": 5100}
+    ],
+    "partner": {
+      "title": "our client",
+      "items": [
+        {
+          "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-1.png",
+          "alt": "client1"
+        },
+        {
+          "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-2.png",
+          "alt": "client2"
+        },
+        {
+          "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-3.png",
+          "alt": "client3"
+        },
+        {
+          "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-4.png",
+          "alt": "client4"
+        },
+        {
+          "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-2.png",
+          "alt": "client5"
+        },
+        {
+          "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-7.png",
+          "alt": "client6"
+        },
+        {
+          "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-6.png",
+          "alt": "client7"
+        },
+        {
+          "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-5.png",
+          "alt": "client8"
+        }
+      ]
     }
   }
 }
