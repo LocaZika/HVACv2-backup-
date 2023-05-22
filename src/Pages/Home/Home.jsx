@@ -13,7 +13,7 @@ export default function Home() {
   });
   useEffect(() => {
     api.get().then(({data}) => {
-      // setHomePage({data: data, loading: false});
+      setHomePage({data: data, loading: false});
       console.log(homePage);
     });
   }, []);
