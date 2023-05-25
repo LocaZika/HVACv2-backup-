@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { Card, CardActions, CardContent, Typography, Grid, Box, useMediaQuery } from "@mui/material";
 import { Link } from 'react-router-dom';
-import { useMemo } from 'react';
+import { convertSpacetoDash } from 'Services/Ultilities';
 
 /**
  * 
@@ -74,7 +74,7 @@ export default function ProductCard(props) {
                   height={'60px'}
                 >
                   <Link
-                    to={`car-detail/${id}`}
+                    to={`car-detail/${id}/${convertSpacetoDash(name).toLowerCase()}`}
                     className='product-card__title'
                   >{name}</Link>
                 </Typography>
@@ -98,11 +98,11 @@ export default function ProductCard(props) {
               <CardActions className='product-card__price'>
                 {
                   status === 'sale' ? (
-                    <Link to={`car-detail/${id}`}
+                    <Link to={`car-detail/${id}/${convertSpacetoDash(name).toLowerCase()}`}
                       className='product-card__price__option sale'
                     >for sale</Link>
                   ) : (
-                    <Link to={`car-detail/${id}`}
+                    <Link to={`car-detail/${id}/${convertSpacetoDash(name).toLowerCase()}`}
                       className='product-card__price__option'
                     >for rent</Link>
                   )

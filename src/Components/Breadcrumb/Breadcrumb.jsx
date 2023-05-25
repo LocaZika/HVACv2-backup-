@@ -1,69 +1,49 @@
 import { Grid, Typography, Breadcrumbs, Container } from '@mui/material';
 import { Home, NavigateNext } from '@mui/icons-material'
 import './Breadcrumb.scss';
-import { Link } from 'react-router-dom';
-import { convertPath } from 'Services/Ultilities/convertPath';
-import { useEffect } from 'react';
+import { Link, useLocation,  } from 'react-router-dom';
+import { convertSlashToArray } from 'Services/Ultilities';
+import { convertDashToSpace } from '../../Services/Ultilities/convertString';
 
-export default function Breadcrumb({currentPath}) {
-  const pathArr = convertPath(currentPath);
-  /**
-   * pathArr = [car-listing, car-detail, porche-9]
-   * pathArr = [home, car-listing]
-   * 
-   */
-  const createPathComponent = () => {
-    let componentArr = [
+export default function Breadcrumb() {
+  const {pathname} = useLocation();
+  const pathArr = convertSlashToArray(pathname); // ['car-listing', 'car-detail', '4', 'Bmw-s1000rr-2019-mx']
+  const lastPath = convertDashToSpace(pathArr[pathArr.length - 1]);
+  const paths = () => {
+    let arr = [
       <Link key='breadcrumb-home' to={'/'} className='breadcrumb__link'>
         <Home sx={{ mr: 0.5 }} fontSize="inherit" />
         Home
-      </Link>
+      </Link>,
+      <Typography key="breadcrum-path" color="text.primary" className='breadcrumb__path'
+        sx={{
+        fontSize: '15px',
+        color: '#727171',
+      }}
+      >
+        {
+          lastPath
+        }
+      </Typography>
     ];
-      for (let i = 0; i < pathArr.length - 1; i++) {
-        componentArr.push(
-          <Link key='breadcrumb-path' to={`/${pathArr[i]}`} className='breadcrumb__link'>
-            {pathArr[i]}
-          </Link>
-        );
-      }
-    return componentArr;
-  }
-  const paths = [
-    <Typography key="breadcrum-path" color="text.primary" className='breadcrumb__path'
-      sx={{
-      fontSize: '15px',
-      color: '#727171',
-    }}
-    >
-      {
-        pathArr.length === 0 ? (
-          currentPath
-          ):(
-          pathArr[pathArr.length - 1]
-        )
-      }
-    </Typography>
-  ];
-  useEffect(() => {
-    const pathCom = createPathComponent();
-    if(pathArr.length === 0){
-      paths.unshift(pathCom[0]);
-    }else{
-      const reversePathCom = pathCom.reverse();
-      reversePathCom.map(path => paths.unshift(path));
+    for (let i = 0; i < pathArr.length - 3; i++) {
+      const path = pathArr[i];
+      const convertedPath = convertDashToSpace(path);
+      const template = <Link key='breadcrumb-prev' to={`/${path}`} className='breadcrumb__link'>{convertedPath}</Link>;
+      arr.splice(i + 1, 0, template);
     }
-    console.log(paths);
-  }, []);
+    return arr;
+  };
   return (
     <Grid className='breadcrumb set-bg'>
       <Container sx={{textAlign: 'center'}}>
         <Grid item lg={12}>
-          <h2>{currentPath}</h2>
+          <h2>{lastPath}</h2>
           <Breadcrumbs
             separator={<NavigateNext fontSize="small" sx={{fill: '#fff',}} />}
             aria-label="breadcrumb"
           >
-            {paths}
+            {paths()}
           </Breadcrumbs>
         </Grid>
       </Container>

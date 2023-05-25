@@ -24,7 +24,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 2,
@@ -49,7 +255,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 3,
@@ -74,7 +486,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 4,
@@ -96,7 +714,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 5,
@@ -118,7 +942,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 6,
@@ -140,7 +1170,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 7,
@@ -165,7 +1401,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 8,
@@ -190,7 +1632,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 9,
@@ -199,7 +1847,7 @@
       "price": 780000,
       "gearboxType": "auto",
       "vin": "1C4RJFAG8DC537142",
-      "discount": 0,
+      "discount": 0.25,
       "pricingDate": "10/11/2019",
       "stock": "URJESFAG8DC537142",
       "seats": "2",
@@ -215,7 +1863,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 10,
@@ -237,7 +2091,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 11,
@@ -259,7 +2319,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 12,
@@ -281,7 +2547,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 13,
@@ -306,7 +2778,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 14,
@@ -331,7 +3009,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 15,
@@ -356,7 +3240,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 16,
@@ -378,7 +3468,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 17,
@@ -400,7 +3696,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 18,
@@ -422,7 +3924,213 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 19,
@@ -444,8 +4152,214 @@
         "https://preview.colorlib.com/theme/hvac/img/cars/car-2.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-3.jpg",
         "https://preview.colorlib.com/theme/hvac/img/cars/car-4.jpg"
-      ]
-    }
+      ],
+      "tabs": {
+        "overview": {
+          "title": "vehicle overview",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+      "technical": {
+          "title": "technical",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      },
+        "featureAndOption": {
+          "title": "features & options",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "allo] wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        },
+        "location": {
+          "title": "vehicle location",
+          "info": {
+            "title": "general infomation",
+            "items": [
+              "pellentesque lacus urna, feugiat non consectetur nec",
+              "aliquam sem neque, efficitur atero lectus vitae.",
+              "pellentesque erat libero, eleifend sit amet felis ido.",
+              "maecenas eget consectetur quam. vestibulum ligula.",
+              "praesent lorem sapien, vestibulum eget aliquet et."
+            ]
+          },
+          "feature": [
+            {
+              "title": "interior design",
+              "items": [
+                "auxiliary heating",
+                "bluetooth",
+                "cd player",
+                "central locking"
+              ]
+            },
+            {
+              "title": "safety design",
+              "items": [
+                "head-up display",
+                "mp3 interface",
+                "navigation system",
+                "panoramic roof"
+              ]
+            },
+            {
+              "title": "extra design",
+              "items": [
+                "alloy wheels",
+                "electric side mirror",
+                "sports package",
+                "sports suspension"
+              ]
+            },
+            {
+              "title": "technology",
+              "items": [
+                "mp3 interface",
+                "head-up display",
+                "panoramic roof",
+                "navigation system"
+              ]
+            }
+          ]
+        }
+      }
   ],
   "blogs": [],
   "menuHeader": [
@@ -601,6 +4515,25 @@
         "values": ["2", "4-5"]
       }
     ]
+  },
+  "carDetailPage": {
+
+    "purchase": {
+      "path": "#",
+      "text": "get today is price"
+    },
+    "expressPurchase": {
+      "path": "#",
+      "text": "express purchase"
+    },
+    "buildPayment": {
+      "path": "#",
+      "text": "build payment"
+    },
+    "valueTrade": {
+      "path": "#",
+      "text": "value trade"
+    }
   },
   "aboutPage": {
     "title": ["wellcome to HVAC auto online", "we provide everything you need to a car"],
