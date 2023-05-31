@@ -25,7 +25,7 @@ export default function CarDetail() {
   }
   return (
     <>
-      <Breadcrumb />
+      <Breadcrumb title={carData.name} />
       <Box component={'section'} className='car-detail spad'>
         <Container fixed>
           <Grid container className='car-detail--container'>

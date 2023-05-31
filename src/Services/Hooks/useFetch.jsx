@@ -1,6 +1,7 @@
+import { isEmpty } from 'lodash';
 import PropTypes from 'prop-types';
 
-const host = import.meta.env.VITE_HOST;
+const host = import.meta.env.VITE_HOST; // process.env.tenbien
 const generateUrl = (obj) => {
   let url = '?';
   const checkPrefix = (key, value) => {
@@ -8,34 +9,33 @@ const generateUrl = (obj) => {
       url += `_${key}=${value}` :
       url += `&_${key}=${value}`;
   }
-  const length = obj.length;
-    if (length === 0){
-      return '';
+  if (isEmpty(obj) === true || obj === undefined){
+    return '';
+  }
+  if (obj.sort ?? undefined){
+    checkPrefix('sort', obj.sort);
+  }
+  if (obj.order ?? undefined){
+    checkPrefix('order', obj.order);
+  }
+  if (obj.page ?? undefined){
+    checkPrefix('page', obj.page);
+  }
+  if (obj.limit ?? undefined){
+    checkPrefix('limit', obj.limit);
+  }
+  if (obj.search ?? undefined){
+    url.charAt(1) === '' ?
+      url += `q=${obj.search}` :
+      url += `&q=${obj.search}`;
+  }
+  if (obj.filter ?? undefined){
+    for (let item in obj.filter){
+      checkPrefix('filter', obj.filter[item]);
     }
-    if (obj.sort ?? undefined){
-      checkPrefix('sort', obj.sort);
-    }
-    if (obj.order ?? undefined){
-      checkPrefix('order', obj.order);
-    }
-    if (obj.page ?? undefined){
-      checkPrefix('page', obj.page);
-    }
-    if (obj.limit ?? undefined){
-      checkPrefix('limit', obj.limit);
-    }
-    if (obj.search ?? undefined){
-      url.charAt(1) === '' ?
-        url += `q=${obj.search}` :
-        url += `&q=${obj.search}`;
-    }
-    if (obj.filter ?? undefined){
-      for (let item in obj.filter){
-        checkPrefix('filter', obj.filter[item]);
-      }
-    }
-    return url;
-  };
+  }
+  return url;
+};
 export default function useFetch(path) {
   /**
    * 

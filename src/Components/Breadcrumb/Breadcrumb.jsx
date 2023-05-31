@@ -4,11 +4,13 @@ import './Breadcrumb.scss';
 import { Link, useLocation,  } from 'react-router-dom';
 import { convertSlashToArray } from 'Services/Ultilities';
 import { convertDashToSpace } from '../../Services/Ultilities/convertString';
+import PropTypes from 'prop-types';
 
-export default function Breadcrumb() {
+export default function Breadcrumb({title}) {
   const {pathname} = useLocation();
   const pathArr = convertSlashToArray(pathname); // ['car-listing', 'car-detail', '4', 'Bmw-s1000rr-2019-mx']
   const lastPath = convertDashToSpace(pathArr[pathArr.length - 1]);
+  const defTitle = title ?? lastPath;
   const paths = () => {
     let arr = [
       <Link key='breadcrumb-home' to={'/'} className='breadcrumb__link'>
@@ -22,7 +24,7 @@ export default function Breadcrumb() {
       }}
       >
         {
-          lastPath
+          defTitle
         }
       </Typography>
     ];
@@ -38,10 +40,11 @@ export default function Breadcrumb() {
     <Grid className='breadcrumb set-bg'>
       <Container sx={{textAlign: 'center'}}>
         <Grid item lg={12}>
-          <h2>{lastPath}</h2>
+          <h2>{defTitle}</h2>
           <Breadcrumbs
-            separator={<NavigateNext fontSize="small" sx={{fill: '#fff',}} />}
+            separator={<NavigateNext fontSize="small" sx={{fill: '#fff'}} />}
             aria-label="breadcrumb"
+            sx={{m: 0}}
           >
             {paths()}
           </Breadcrumbs>
@@ -49,4 +52,7 @@ export default function Breadcrumb() {
       </Container>
     </Grid>
   )
+}
+Breadcrumb.propTypes = {
+  title: PropTypes.string,
 }

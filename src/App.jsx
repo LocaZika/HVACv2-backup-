@@ -1,4 +1,4 @@
-import './assets/Style/style.scss';
+import './assets/Style/main.scss';
 import { createTheme, ThemeProvider } from '@mui/material';
 import { DefaultLayout } from './Layouts';
 

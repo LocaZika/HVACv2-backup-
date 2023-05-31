@@ -9,11 +9,11 @@ import { faCreditCard, faMoneyBill1 } from '@fortawesome/free-regular-svg-icons'
 
 export default function CarDetailSidebar({vin, stock, price, discount, pricingDate, pageData}) {
   const priceDiscount = () => {
-    const priceDis = price * discount;
+    const priceDis = (price * discount) / 100;
     return toCurrency(priceDis);
   };
   const finalPrice = () => {
-    const final = price - (price * discount);
+    const final = price - (price * discount) / 100;
     return toCurrency(final);
   };
   return (

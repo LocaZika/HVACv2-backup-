@@ -8,6 +8,8 @@ export const toCurrency = (number) => {
   const def = new Intl.NumberFormat("en-us", {
     style: "currency",
     currency: "usd",
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 2,
   });
   return def.format(number);
 };

@@ -28,6 +28,9 @@
   }
   &__nav-tab{
     background-color: #f7f7f7;
+    .MuiTabs-flexContainer{
+      flex-wrap: wrap;
+    }
     .nav-item{
       text-transform: capitalize;
       font-size: 20px;
@@ -38,6 +41,9 @@
       border-top-right-radius: 0;
       padding: 22px 0 16px;
       flex: 1 1 25%;
+      @media only screen and (max-width: 479px) {
+        flex: 1 1 100%;
+      }
     }
     .MuiTabs-indicator{
       background-color: #db2d2e;

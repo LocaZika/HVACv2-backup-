@@ -1,6 +1,6 @@
-import './Header.scss';
 import { HeaderMobile, HeaderDesktop } from './Components';
 import { useMediaQuery } from '@mui/material';
+import './Header.scss';
 
 const menuItem = [
   {title: 'cars', path: '/car-listing'},

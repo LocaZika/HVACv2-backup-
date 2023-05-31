@@ -25,7 +25,6 @@ export default function CarDetailPic({image}) {
           return thumbs
         }}
         thumbWidth='150px'
-        // renderItem={(items) => {console.log(items)}}
       >
         {
           img.map((i, index) => (

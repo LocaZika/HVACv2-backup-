@@ -1,9 +1,9 @@
-import './ContactBar.scss';
 import { Box, Container, Grid, Paper, styled } from '@mui/material';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faGoogle, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import './ContactBar.scss';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: 'transparent',

@@ -5,7 +5,7 @@ import { AboutUs, Call, Client, Counter, Team, Testimonial } from './Components'
 export default function About() {
   return (
     <>
-      <Breadcrumb currentPath={'about us'} />
+      <Breadcrumb title='About Us' />
       <AboutUs />
       <Call />
       <Team />

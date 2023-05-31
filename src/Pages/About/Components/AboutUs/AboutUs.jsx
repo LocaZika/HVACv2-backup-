@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './AboutUs.scss';
 import { Box, Container, Grid } from '@mui/material';
 
@@ -30,6 +31,7 @@ const aboutOrientation = {
   },
 }
 export default function AboutUs() {
+  const [about, setAbout] = useState({});
   const convertText = (text) => {
     const pattern = /(?<=(\?|\.)\s)[a-zA-Z]/g;
     return text.replace(pattern, (c => c.toUpperCase()));
@@ -66,7 +68,7 @@ export default function AboutUs() {
             <Grid item lg={12} className='about__orientation__image'>
               <Box component={'img'} src={aboutOrientation.image}></Box>
             </Grid>
-            <Grid container lg={12} marginX={'-13px'}>
+            <Grid container item lg={12} marginX={'-13px'}>
               <Grid item sm={12} md={6} lg={6} className='about__orientation__item'>
                 <Box component={'h5'}>{aboutOrientation.mission.title}</Box>
                 <Box component={'p'}>{aboutOrientation.mission.text}</Box>

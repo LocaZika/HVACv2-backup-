@@ -1,14 +1,15 @@
-import { Button, Container, Grid, TextField, TextareaAutosize } from "@mui/material";
+import { Box, Button, Container, Grid, TextField, TextareaAutosize } from "@mui/material";
 import './Contact.scss';
+import PropTypes from 'prop-types';
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from "react";
 
 const {serviceId, templateId, publicKey} = {
-  serviceId: 'service_fud9pkm',
-  templateId: 'template_dhxls25',
-  publicKey: 'ZzhwKMiH1jxkMpHtB'
+  serviceId: import.meta.env.VITE_GMAIL_ID,
+  templateId: import.meta.env.VITE_CONTACT_TEMPLATE,
+  publicKey: import.meta.env.VITE_PUBLIC_KEY,
 };
-export default function ContactForm() {
+export default function ContactForm({title, text, schedule}) {
   const [isSending, setIsSending] = useState(false);
   const formRef = useRef();
   const handleDate = () => {
@@ -32,20 +33,26 @@ export default function ContactForm() {
         console.log(error.text);
       });
   };
+  if(title === undefined || text === undefined || schedule === undefined ){
+    return <div></div>
+  }
   return (
     <form ref={formRef} onSubmit={handleSubmit}>
       <Grid container className="contact__form">
         <Grid item md={6} lg={6} className="contact__form-schedule">
           <Container fixed>
-            <div className="contact__form-schedule-title">
-              <h2>let's work together</h2>
-              <p>to make requests for further information, contact us via our social channels.</p>
-            </div>
-            <ul>
-              <li><span>weekday:</span>08:00 am to 18:00 pm</li>
-              <li><span>saturday:</span>10:00 am to 16:00 pm</li>
-              <li><span>sunday:</span>Closed</li>
-            </ul>
+            <Box className="contact__form-schedule-title">
+              <Box component={'h2'}>{title}</Box>
+              <Box component={'p'}>{text}</Box>
+            </Box>
+            <Box component={'ul'}>
+              {
+                schedule.map(({title, text}, index) => (
+                  <Box key={index} component={'li'}><Box component={'span'}>{title}</Box>{text}</Box>
+                ))
+              }
+              
+            </Box>
           </Container>
         </Grid>
         <Grid item md={6} lg={6}>
@@ -139,4 +146,9 @@ export default function ContactForm() {
       <input type="text" hidden value={handleDate()} name="dateOfSending" readOnly />
     </form>
   )
+}
+ContactForm.propTypes = {
+  title: PropTypes.string,
+  text: PropTypes.string,
+  schedule: PropTypes.array,
 }
