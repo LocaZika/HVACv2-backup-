@@ -1,6 +1,6 @@
 import { Box, Container, Grid } from '@mui/material';
 import './Latest.scss';
-import { PostCard } from 'Components';
+import { BlogCard } from 'Components';
 
 
 export default function Latest({db}) {
@@ -25,7 +25,7 @@ export default function Latest({db}) {
           </Grid>
         </Grid>
         <Grid container>
-          <PostCard limit={3} />
+          <BlogCard limit={3} />
         </Grid>
       </Container>
     </Box>

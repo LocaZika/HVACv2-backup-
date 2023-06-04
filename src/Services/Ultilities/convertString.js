@@ -24,10 +24,19 @@ export const convertSpacetoDash = (str) => str.replaceAll(" ", "-");
  * @returns string
  */
 export const convertDashToSpace = (str) => str.replaceAll("-", " ");
-
+/**
+ *
+ * @param {string} text Set text to format
+ * @returns text
+ */
+export const formatText = (text) => {
+  const pattern = /(?<=(\?|\.)\s)[a-zA-Z]/g;
+  return text.replace(pattern, (c) => c.toUpperCase());
+};
 const convertString = {
   convertDashToSpace,
   convertSpacetoDash,
   convertSlashToArray,
+  formatText,
 };
 export default convertString;

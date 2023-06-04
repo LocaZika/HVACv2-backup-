@@ -1,4 +1,4 @@
-.home .post-card{
+.home .blog-card{
   margin-bottom: 30px;
   text-transform: capitalize;
   &__pic{
@@ -56,32 +56,6 @@
     }
     svg{
       margin-left: 6px;
-    }
-  }
-  &.no-preview {
-    .post-card{
-      &__pic{
-        display: block;
-        &__info{
-          position: absolute;
-          padding: 25px 20px 20px;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 100%;
-          h6 {
-            font-size: 15px;
-            color: #ffffff;
-            font-weight: 700;
-            margin-bottom: 26px;
-          }
-          ul {
-            position: relative;
-            background-color: transparent;
-            padding: 0;
-          }
-        }
-      }
     }
   }
 }

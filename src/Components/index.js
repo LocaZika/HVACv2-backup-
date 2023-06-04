@@ -1,6 +1,6 @@
 // Components
 export { default as ProductCard } from "./ProductCard/ProductCard";
-export { default as PostCard } from "./PostCard/PostCard";
+export { default as BlogCard } from "./BlogCard/BlogCard";
 export { default as Breadcrumb } from "./Breadcrumb/Breadcrumb";
 export { default as SearchForm } from "./SearchForm/SearchForm";
 export { default as SelectForm } from "./SelectForm/SelectForm";

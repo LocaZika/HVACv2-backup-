@@ -1,4 +1,4 @@
-import { Box, Container, Grid } from '@mui/material';
+import { Box, Container, Grid, useMediaQuery } from '@mui/material';
 import './Testimonial.scss';
 import { Carousel } from 'react-responsive-carousel';
 import Review from './Components/Review';
@@ -26,6 +26,7 @@ const reviews = [
   },
 ]
 export default function Testimonial() {
+  const checkBreakpoint = useMediaQuery((theme) => theme.breakpoints.up('md'));
   return (
     <Box component={'section'} className='testimonial spad'>
       <Container fixed>
@@ -39,7 +40,7 @@ export default function Testimonial() {
         <Grid>
           <Carousel
             showThumbs={false}
-            centerMode={true}
+            centerMode={checkBreakpoint}
             centerSlidePercentage={50}
             emulateTouch={true}
             swipeable={true}

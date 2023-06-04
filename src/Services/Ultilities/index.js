@@ -6,4 +6,5 @@ export {
   convertDashToSpace,
   convertSlashToArray,
   convertSpacetoDash,
+  formatText,
 } from "./convertString";

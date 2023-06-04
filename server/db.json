@@ -4361,7 +4361,18 @@
         }
       }
   ],
-  "blogs": [],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "",
+      "image": "",
+      "postedBy": "",
+      "postDate": "",
+      "content": "",
+      "comments": [],
+      "preview": ""
+    }
+  ],
   "menuHeader": [
     {"id": 1, "title": "home", "path": "/"},
     {"id": 2, "title": "cars", "path": "/cars"},
@@ -4536,31 +4547,33 @@
     }
   },
   "aboutPage": {
-    "title": ["wellcome to HVAC auto online", "we provide everything you need to a car"],
-    "description": ["First I will explain what contextual advertising is. Contextual advertising means the advertising of products on a website according to ", "the content the page is displaying. For example if the content of a website was information on a Ford truck then the advertisements"],
-    "features": [
-      {
-        "title": "quality assurance system",
-        "image": "https://preview.colorlib.com/theme/hvac/img/about/af-1.png",
-        "text": "it seems though that some of the biggest problems with the internet advertising trends are the lack of"
-      },
-      {
-        "title": "accurate testing processes",
-        "image": "https://preview.colorlib.com/theme/hvac/img/about/af-2.png",
-        "text": "where do you register your complaints? How can you protest in any form against companies whose"
-      },
-      {
-        "title": "infrastructure integration technology",
-        "image": "https://preview.colorlib.com/theme/hvac/img/about/af-3.png",
-        "text": "So in final analysis: it’s true, I hate peeping Toms, but if I had to choose, I’d take one any day over an"
+    "aboutUs": {
+      "title": ["wellcome to HVAC auto online", "we provide everything you need to a car"],
+      "description": ["First I will explain what contextual advertising is. Contextual advertising means the advertising of products on a website according to ", "the content the page is displaying. For example if the content of a website was information on a Ford truck then the advertisements"],
+      "features": [
+        {
+          "title": "quality assurance system",
+          "image": "https://preview.colorlib.com/theme/hvac/img/about/af-1.png",
+          "text": "it seems though that some of the biggest problems with the internet advertising trends are the lack of"
+        },
+        {
+          "title": "accurate testing processes",
+          "image": "https://preview.colorlib.com/theme/hvac/img/about/af-2.png",
+          "text": "where do you register your complaints? How can you protest in any form against companies whose"
+        },
+        {
+          "title": "infrastructure integration technology",
+          "image": "https://preview.colorlib.com/theme/hvac/img/about/af-3.png",
+          "text": "So in final analysis: it’s true, I hate peeping Toms, but if I had to choose, I’d take one any day over an"
+        }
+      ],
+      "orientation": {
+        "image": "https://preview.colorlib.com/theme/hvac/img/about/about-pic.jpg",
+        "items": [
+          {"title": "our mission", "text": "Now, I’m not like Robin, that weirdo from my cultural anthropology class; I think that advertising is something that has its place in our society; which for better or worse is structured along a marketplace economy. But, simply because I feel advertising has a right to exist, doesn’t mean that I like or agree with it, in its"},
+          {"title": "our vision", "text": "Where do you register your complaints? How can you protest in any form against companies whose advertising techniques you don’t agree with? You don’t. And on another point of difference between traditional products and their advertising and those of the internet nature, simply ignoring internet advertising is"}
+        ]
       }
-    ],
-    "orientation": {
-      "image": "https://preview.colorlib.com/theme/hvac/img/about/about-pic.jpg",
-      "items": [
-        {"title": "our mission", "text": "Now, I’m not like Robin, that weirdo from my cultural anthropology class; I think that advertising is something that has its place in our society; which for better or worse is structured along a marketplace economy. But, simply because I feel advertising has a right to exist, doesn’t mean that I like or agree with it, in its"},
-        {"title": "our vision", "text": "Where do you register your complaints? How can you protest in any form against companies whose advertising techniques you don’t agree with? You don’t. And on another point of difference between traditional products and their advertising and those of the internet nature, simply ignoring internet advertising is"}
-      ]
     },
     "call": {
       "title": "request a call back",
@@ -4597,44 +4610,56 @@
         }
       ]
     },
-    "counter": [
-      {"title": "vehicles stock", "number": 1922},
-      {"title": "vehicles sale", "number": 1501},
-      {"title": "dealer reviews", "number": 1922},
-      {"title": "happy client", "number": 5100}
-    ],
-    "partner": {
+    "counter": {
+      "image": "https://preview.colorlib.com/theme/hvac/img/counter-bg.jpg",
+      "items": [
+        {"title": "vehicles stock", "number": 1922},
+        {"title": "vehicles sale", "number": 1501},
+        {"title": "dealer reviews", "number": 1922},
+        {"title": "happy client", "number": 5100}
+      ]
+    },
+    "client": {
       "title": "our client",
+      "subTitle": "partner",
       "items": [
         {
+          "path": "/",
           "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-1.png",
           "alt": "client1"
         },
         {
+          "path": "/",
           "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-2.png",
           "alt": "client2"
         },
         {
+          "path": "/",
           "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-3.png",
           "alt": "client3"
         },
         {
+          "path": "/",
           "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-4.png",
           "alt": "client4"
         },
         {
+          "path": "/",
           "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-2.png",
           "alt": "client5"
         },
         {
+          "path": "/",
           "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-7.png",
           "alt": "client6"
         },
         {
+          "path": "/",
           "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-6.png",
           "alt": "client7"
         },
         {
+          "path": "/",
           "image": "https://preview.colorlib.com/theme/hvac/img/clients/client-5.png",
           "alt": "client8"
         }
