@@ -1,20 +1,15 @@
 import './SearchForm.scss';
 import { useState } from 'react';
-import { useFetch } from 'Services/Hooks';
 import { Button, TextField } from '@mui/material';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import { useDispatch } from 'react-redux';
-import { searchFormSlice } from './searchFormSlice';
+import PropTypes from 'prop-types';
 
-export default function SearchForm({path, onSetKeyword}) {
+export default function SearchForm({onSubmit}) {
   const [search, setSearch] = useState({
     isEmpty: false,
     keyword: '',
   });
-  const dispatch = useDispatch();
-  const {result} = searchFormSlice.actions;
-  const api = useFetch(path);
   const handleChange = (e) => setSearch({
     ...search, keyword: e.target.value
   });
@@ -24,11 +19,8 @@ export default function SearchForm({path, onSetKeyword}) {
       setSearch({...search, isEmpty: true})
     }else{
       const keyword = search.keyword.toLowerCase();
-      api.get('GET',{search: keyword}).then(({data}) => {
-        dispatch(result(data));
-        onSetKeyword(keyword);
-      });
-      setSearch({...search, isEmpty: false});
+      setSearch({keyword: '', isEmpty: false});
+      onSubmit(keyword);
     }
   }
   return (
@@ -49,4 +41,7 @@ export default function SearchForm({path, onSetKeyword}) {
       </Button>
     </form>
   )
+}
+SearchForm.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
 }

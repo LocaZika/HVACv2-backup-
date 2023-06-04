@@ -10,3 +10,4 @@ export { default as CarDetail } from "./Cars/CarDetail/CarDetail";
 // Slices
 export { cartSlice } from "./Cart/cartSlice";
 export { formHeroSlice } from "./Home/components/Hero/formHeroSlice";
+export { carsPageSlice } from "./Cars/carsPageSlice";

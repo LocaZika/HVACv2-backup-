@@ -3,26 +3,26 @@ import { Breadcrumb, SearchForm, Pagination } from 'Components';
 import './Cars.scss';
 import FormCarFilter from './Components/FormCarFilter';
 import CarSort from './Components/CarSort';
-import { ProductCard, searchFormState } from 'Components';
+import { ProductCard } from 'Components';
 import { useFetch } from 'Services/Hooks';
 import { useEffect, useState } from 'react';
-import { useSelector } from 'react-redux';
-// import { webDbState } from 'Services/Redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { carsPageState } from './carsPageSlice';
 import { useSearchParams } from 'react-router-dom';
 
 export default function Cars() {
-  const [extraOpt, setExtraOpt] = useState({
-    sort: 'price',
-    page: 1,
-    order: 'desc',
-    limit: 9,
-    search: '',
-  });
+  // const [extraOpt, setExtraOpt] = useState({
+  //   sort: 'price',
+  //   page: 1,
+  //   order: 'desc',
+  //   limit: 9,
+  //   search: '',
+  // });
+  // const [totalCount, setTotalCount] = useState(0);
+  // const [carList, setCarList] = useState([]);
   const [searchParams, setSearchParams] = useSearchParams();
-  const [totalCount, setTotalCount] = useState(0);
-  const [carList, setCarList] = useState([]);
-  // const {cars} = useSelector(webDbState);
-  const searchResult = useSelector(searchFormState);
+  const carPageData = useSelector(carsPageState);
+  const dispatch = useDispatch();
   const api = useFetch('cars');
   const handleSortOptions = (limit, sortOption) => {
     setExtraOpt({
@@ -43,6 +43,7 @@ export default function Cars() {
       search: keyword
     })
   };
+  console.log(carPageData);
   useEffect(() => {
     api.get(extraOpt).then(({res, data}) => {
       let params = {};
@@ -61,7 +62,6 @@ export default function Cars() {
       }
       setTotalCount(Math.ceil(res.headers.get('X-Total-Count') / extraOpt.limit));
       setCarList(data);
-      // console.log(searchResult);
       setSearchParams(params);
     });
   }, [totalCount, extraOpt]);
@@ -78,7 +78,7 @@ export default function Cars() {
               <Box className='cars__sidebar' >
                 <Box className='cars__sidebar__search'>
                   <Box component={'h5'}>car search</Box>
-                  <SearchForm path={'cars'} onSetKeyword={handleSubmitSearch} />
+                  <SearchForm onSubmit={} />
                 </Box>
                 <Box className='cars__sidebar__filter'>
                   <Box component={'h5'}>car filter</Box>
