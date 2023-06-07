@@ -1,2 +1,1 @@
--searchParam ko hoat dong lien tuc
--pagination bi delay sau khi click
+pagination bi undefined,

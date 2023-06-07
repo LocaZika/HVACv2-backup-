@@ -5,9 +5,9 @@ import FormCarFilter from './Components/FormCarFilter';
 import CarSort from './Components/CarSort';
 import { ProductCard } from 'Components';
 import { useFetch } from 'Services/Hooks';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { carsPageState } from './carsPageSlice';
+import { carsPageState, carsPageSlice } from './carsPageSlice';
 import { useSearchParams } from 'react-router-dom';
 
 export default function Cars() {
@@ -21,31 +21,37 @@ export default function Cars() {
   // const [totalCount, setTotalCount] = useState(0);
   // const [carList, setCarList] = useState([]);
   const [searchParams, setSearchParams] = useSearchParams();
-  const carPageData = useSelector(carsPageState);
+  const {extraOpt, totalCount, result, carList} = useSelector(carsPageState);
+  const {
+    changeLimit,
+    changeOrder,
+    changeResult,
+    changePage,
+    changeTotalCount,
+    addCarList,
+    changeSearch,
+  } = carsPageSlice.actions;
   const dispatch = useDispatch();
   const api = useFetch('cars');
-  const handleSortOptions = (limit, sortOption) => {
-    setExtraOpt({
-      ...extraOpt,
-      order: sortOption,
-      limit: limit,
-    });
+  const handleSortOptions = (limit, order) => {
+    dispatch(changeLimit(limit));
+    dispatch(changeOrder(order));
   }
   const handleClickPagination = (page) => {
-    setExtraOpt({
-      ...extraOpt,
-      page: page,
-    })
+    dispatch(changePage(page));
   };
   const handleSubmitSearch = (keyword) => {
-    setExtraOpt({
-      ...extraOpt,
-      search: keyword
-    })
+    const extraOptions = {...extraOpt, page: 1, search: keyword};
+    dispatch(changePage(1));
+    dispatch(changeSearch(keyword));
+    api.get(extraOptions).then(({data}) => {
+      dispatch(changeResult(data));
+    });
   };
-  console.log(carPageData);
   useEffect(() => {
     api.get(extraOpt).then(({res, data}) => {
+      console.log(extraOpt.page);
+      const totalCount = Math.ceil(res.headers.get('X-Total-Count') / extraOpt.limit)
       let params = {};
       if (extraOpt.order !== 'desc'){
         params._order = extraOpt.order;
@@ -60,8 +66,8 @@ export default function Cars() {
         params['q'] = extraOpt.search;
         extraOpt.page = 1;
       }
-      setTotalCount(Math.ceil(res.headers.get('X-Total-Count') / extraOpt.limit));
-      setCarList(data);
+      dispatch(changeTotalCount(totalCount));
+      dispatch(addCarList(data));
       setSearchParams(params);
     });
   }, [totalCount, extraOpt]);
@@ -78,7 +84,7 @@ export default function Cars() {
               <Box className='cars__sidebar' >
                 <Box className='cars__sidebar__search'>
                   <Box component={'h5'}>car search</Box>
-                  <SearchForm onSubmit={} />
+                  <SearchForm onSubmit={handleSubmitSearch} />
                 </Box>
                 <Box className='cars__sidebar__filter'>
                   <Box component={'h5'}>car filter</Box>
@@ -91,9 +97,14 @@ export default function Cars() {
                 <CarSort setSort={handleSortOptions} />
               </Grid>
               <Grid container className='cars-list'>
-                <ProductCard products={
-                    searchResult.length === 0 ? carList: searchResult
-                  } lg={4} />
+                {
+                  result.length === 0 ? (
+                    carList.map(car => <ProductCard key={car.id} product={car} lg={4} />)
+                  ): (
+                    result.map(car => <ProductCard key={car.id} product={car} lg={4} />)
+                  )
+
+                }
               </Grid>
               <Grid container className='cars-pagination'>
                 <Pagination totalCount={totalCount} setPage={handleClickPagination}  />

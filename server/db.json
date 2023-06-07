@@ -4364,13 +4364,143 @@
   "blogs": [
     {
       "id": 1,
-      "title": "",
-      "image": "",
-      "postedBy": "",
-      "postDate": "",
-      "content": "",
-      "comments": [],
-      "preview": ""
+      "title": "Benjamin Franklin S Method Of",
+      "image": "https://preview.colorlib.com/theme/hvac/img/blog/blog-1.jpg",
+      "postedBy": "polly williams",
+      "postDate": "dec 11, 2018",
+      "content": "Great business ideas when utilized effectively can save lots of money. This is not only easy for those who work full-time as an advertiser...",
+      "comments": [
+        {
+          "userId": 1,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+          "likeCount": 2
+        },
+        {
+          "userId": 1,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+          "likeCount": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Where To Look For Cheap Brochure",
+      "image": "https://preview.colorlib.com/theme/hvac/img/blog/blog-2.jpg",
+      "postedBy": "polly williams",
+      "postDate": "dec 11, 2018",
+      "content": "Great business ideas when utilized effectively can save lots of money. This is not only easy for those who work full-time as an advertiser...",
+      "comments": [
+        {
+          "userId": 1,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+          "likeCount": 2
+        },
+        {
+          "userId": 1,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+          "likeCount": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Promotional Advertising Specialty",
+      "image": "https://preview.colorlib.com/theme/hvac/img/blog/blog-3.jpg",
+      "postedBy": "Jessie Palmer",
+      "postDate": "dec 22, 2018",
+      "content": "Great business ideas when utilized effectively can save lots of money. This is not only easy for those who work full-time as an advertiser...",
+      "comments": [
+        {
+          "userId": 1,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+          "likeCount": 2
+        },
+        {
+          "userId": 1,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+          "likeCount": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Using Banner Stands To Increase",
+      "image": "https://preview.colorlib.com/theme/hvac/img/blog/blog-4.jpg",
+      "postedBy": "Don Townsend",
+      "postDate": "dec 11, 2018",
+      "content": "Great business ideas when utilized effectively can save lots of money. This is not only easy for those who work full-time as an advertiser...",
+      "comments": [
+        {
+          "userId": 1,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+          "likeCount": 2
+        },
+        {
+          "userId": 1,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+          "likeCount": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "3 Smart Reasons Why You Should",
+      "image": "https://preview.colorlib.com/theme/hvac/img/blog/blog-5.jpg",
+      "postedBy": "Isabella Mann",
+      "postDate": "dec 11, 2018",
+      "content": "Great business ideas when utilized effectively can save lots of money. This is not only easy for those who work full-time as an advertiser...",
+      "comments": [
+        {
+          "userId": 1,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+          "likeCount": 2
+        },
+        {
+          "userId": 1,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+          "likeCount": 2
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Search Engine Optimization And",
+      "image": "https://preview.colorlib.com/theme/hvac/img/blog/blog-6.jpg",
+      "postedBy": "polly williams",
+      "postDate": "dec 11, 2018",
+      "content": "Great business ideas when utilized effectively can save lots of money. This is not only easy for those who work full-time as an advertiser...",
+      "comments": [
+        {
+          "userId": 1,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+          "likeCount": 2
+        },
+        {
+          "userId": 1,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+          "likeCount": 2
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Benjamin Franklin S Method Of",
+      "image": "https://preview.colorlib.com/theme/hvac/img/blog/blog-4.jpg",
+      "postedBy": "polly williams",
+      "postDate": "dec 11, 2018",
+      "content": "Great business ideas when utilized effectively can save lots of money. This is not only easy for those who work full-time as an advertiser...",
+      "comments": [
+        {
+          "userId": 1,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+          "likeCount": 2
+        },
+        {
+          "userId": 1,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+          "likeCount": 2
+        }
+      ]
     }
   ],
   "menuHeader": [
@@ -4694,5 +4824,50 @@
         "tel": "(+84) 123 456 789"
       }
     ]
+  },
+  "blogPage": {
+    "feature": {
+      "title": "feature news"
+    },
+    "categories": {
+      "title": "categories",
+      "items":[
+        {
+          "title": "creativity",
+          "path": "#"
+        },
+        {
+          "title": "design",
+          "path": "#"
+        },
+        {
+          "title": "inspiration",
+          "path": "#"
+        },
+        {
+          "title": "news",
+          "path": "#"
+        }
+      ]
+    },
+    "tags": {
+      "title": "tag",
+      "items": [
+        {"name": "car dealer", "path": "#"},
+        {"name": "ferrari", "path": "#"},
+        {"name": "honda", "path": "#"},
+        {"name": "hatchback", "path": "#"},
+        {"name": "chevrolet", "path": "#"},
+        {"name": "bmw", "path": "#"}
+      ]
+    },
+    "newsletter": {
+      "title": "newsletter",
+      "description": "subscribe our newsletter got get",
+      "subscribeForm": {
+        "placeHolder": "your email",
+        "buttonText": "subscribe"
+      }
+    }
   }
 }

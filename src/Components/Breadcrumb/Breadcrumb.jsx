@@ -6,11 +6,12 @@ import { convertSlashToArray } from 'Services/Ultilities';
 import { convertDashToSpace } from '../../Services/Ultilities/convertString';
 import PropTypes from 'prop-types';
 
-export default function Breadcrumb({title}) {
+export default function Breadcrumb({title, currentPath}) {
   const {pathname} = useLocation();
   const pathArr = convertSlashToArray(pathname); // ['car-listing', 'car-detail', '4', 'Bmw-s1000rr-2019-mx']
   const lastPath = convertDashToSpace(pathArr[pathArr.length - 1]);
   const defTitle = title ?? lastPath;
+  const defCurrentPath = currentPath ?? defTitle;
   const paths = () => {
     let arr = [
       <Link key='breadcrumb-home' to={'/'} className='breadcrumb__link'>
@@ -24,7 +25,7 @@ export default function Breadcrumb({title}) {
       }}
       >
         {
-          defTitle
+          defCurrentPath
         }
       </Typography>
     ];
@@ -55,4 +56,5 @@ export default function Breadcrumb({title}) {
 }
 Breadcrumb.propTypes = {
   title: PropTypes.string,
+  currentPath: PropTypes.string,
 }

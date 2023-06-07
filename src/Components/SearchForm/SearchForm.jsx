@@ -2,7 +2,7 @@ import './SearchForm.scss';
 import { useState } from 'react';
 import { Button, TextField } from '@mui/material';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass, faXmark } from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
 
 export default function SearchForm({onSubmit}) {
@@ -13,6 +13,7 @@ export default function SearchForm({onSubmit}) {
   const handleChange = (e) => setSearch({
     ...search, keyword: e.target.value
   });
+  const handleClear = (e) => setSearch({...search, keyword: ''});
   const handleSubmit = (e) => {
     e.preventDefault();
     if( search.keyword === '' ){
@@ -36,9 +37,17 @@ export default function SearchForm({onSubmit}) {
         className='search-form__input'
         value={search.keyword}
       />
-      <Button type='submit' style={search.isEmpty === false ? null : {height: '70%'}}>
-        <FontAwesomeIcon icon={faMagnifyingGlass} color='#aaaab3' fontSize={'14px'} />
-      </Button>
+      {
+        search.keyword === "" ? (
+          <Button style={{height: '70%'}}>
+            <FontAwesomeIcon icon={faMagnifyingGlass} color='#aaaab3' fontSize={'14px'} />
+          </Button>
+        ) : (
+          <Button style={{height: '70%'}} onClick={handleClear}>
+            <FontAwesomeIcon icon={faXmark} color='#aaaab3' fontSize={'14px'} />
+          </Button>
+        )
+      }
     </form>
   )
 }

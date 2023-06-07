@@ -1,7 +1,7 @@
 import { List, usePagination } from "@mui/material";
 import './Pagination.scss';
 import { useEffect, useState } from "react";
-
+import PropTypes from "prop-types";
 
 export default function Pagination({setPage, totalCount}) {
   const [currentPage, setCurrentPage] = useState(1);
@@ -39,4 +39,8 @@ export default function Pagination({setPage, totalCount}) {
       }
     </List>
   )
+}
+Pagination.propTypes = {
+  setPage: PropTypes.func,
+  totalCount: PropTypes.number,
 }

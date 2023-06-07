@@ -67,10 +67,18 @@ export default function Car({db}) {
         </Grid>
         <Grid container >
           <TabPanel value={activeTab} index={0}>
-            <ProductCard products={products} xs={12} md={4} lg={3} />
+            {
+              products.map(product => (
+                <ProductCard key={product.id} product={product} xs={12} md={4} lg={3} />
+              ))
+            }
           </TabPanel>
           <TabPanel value={activeTab} index={1}>
-            <ProductCard products={saleProducts} xs={12} md={4} lg={3} />
+            {
+              saleProducts.map(product => (
+                <ProductCard key={product.id} product={product} xs={12} md={4} lg={3} />
+              ))
+            }
           </TabPanel>
         </Grid>
       </Container>

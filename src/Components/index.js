@@ -9,5 +9,4 @@ export { default as Pagination } from "./Pagination/Pagination";
 export { default as Loader } from "./Loader/Loader";
 
 // Redux
-export { searchFormSlice, searchFormState } from "./SearchForm/searchFormSlice";
 export { sliderSlice, sliderState } from "./SliderRange/sliderSlice";

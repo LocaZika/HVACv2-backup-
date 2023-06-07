@@ -5,13 +5,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLongArrowRight } from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
 
-export default function BlogCard({limit, viewMore, db, xs, md, lg}) {
-  const defLimit = limit ?? 20;
+export default function BlogCard({viewMore, db, xs, md, lg}) {
   const defViewMore = viewMore ?? true;
   if(!db){
     return <Skeleton animation='wave' height={'422.6px'} variant='rounded' />
   }else{
-    const {title, image, postedBy, postDate, } = db;
+    const {id, title, image, postedBy, postDate, content, comments} = db;
     return (
       <Grid item xs={xs ?? 12} md={md ?? 6} lg={lg ?? 4} paddingX={'15px'}>
         <Box className='blog-card' >
@@ -40,16 +39,22 @@ export default function BlogCard({limit, viewMore, db, xs, md, lg}) {
               </Box>
             </Box>
             <Box className='blog-card__text'>
-              <Box component={'h5'}>
-                {title}
-              </Box>
-              <Box component={'p'}>
-                {previewContent}
-              </Box>
               <Link to={`/blog/blog-detail/${id}`}>
-                view more
-                <FontAwesomeIcon icon={faLongArrowRight} color='#db2d2e' />
+                <Box component={'h5'}>
+                  {title}
+                </Box>
               </Link>
+              <Box component={'p'}>
+                {content}
+              </Box>
+              {
+                defViewMore === true ? (
+                  <Link to={`/blog/blog-detail/${id}`}>
+                    view more
+                    <FontAwesomeIcon icon={faLongArrowRight} color='#db2d2e' />
+                  </Link>
+                ) : null
+              }
             </Box>
           </Box>
       </Grid>
